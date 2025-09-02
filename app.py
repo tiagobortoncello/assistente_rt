@@ -15,11 +15,8 @@ stop_words_pt = stopwords.words('portuguese')
 # ================================
 # Carregamento do CSV fixo
 # ================================
-CSV_PATH = "proposicoes_treinamento.csv"  # Ajuste o caminho se necessário
+CSV_PATH = "proposicoes.csv"  # Ajuste o caminho se necessário
 df = pd.read_csv(CSV_PATH)
-
-# Verificar colunas do CSV
-st.write("Colunas do CSV:", df.columns.tolist())
 
 # ================================
 # Preparação para sugestão de termos
@@ -27,21 +24,16 @@ st.write("Colunas do CSV:", df.columns.tolist())
 vectorizer = TfidfVectorizer(stop_words=stop_words_pt)
 X = vectorizer.fit_transform(df["ementa"].fillna(""))
 
-def sugerir_termos(novo_texto, limiar_similaridade=0.1):
+def sugerir_termos(novo_texto, top_n=5):
     vetor_novo = vectorizer.transform([novo_texto])
     similaridades = cosine_similarity(vetor_novo, X).flatten()
-    
-    # Seleciona todos os documentos acima do limiar de similaridade
-    indices_relevantes = [i for i, sim in enumerate(similaridades) if sim >= limiar_similaridade]
-    
+    indices = similaridades.argsort()[::-1][:top_n]
     termos = []
-    for idx in indices_relevantes:
+    for idx in indices:
         if pd.notna(df.iloc[idx]["termos"]):
-            termos.extend(str(df.iloc[idx]["termos"]).split("| "))
-    
-    # Remove duplicados e espaços extras
-    termos = list(dict.fromkeys([t.strip() for t in termos if t.strip() != ""]))
-    return termos
+            termos.extend(str(df.iloc[idx]["termos"]).split(";"))
+    termos = list(dict.fromkeys([t.strip() for t in termos if isinstance(t, str)]))
+    return termos[:5]
 
 # ================================
 # Modelo de resumo (gratuito)
