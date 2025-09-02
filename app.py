@@ -7,7 +7,7 @@ from transformers import pipeline
 # ================================
 # Carregamento do CSV fixo
 # ================================
-CSV_PATH = "proposicoes.csv"  # Ajuste o nome do arquivo se necessário
+CSV_PATH = "proposicoes_treinamento.csv"  # Ajuste o nome do arquivo se necessário
 df = pd.read_csv(CSV_PATH)
 
 # ================================
