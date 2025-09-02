@@ -15,7 +15,7 @@ stop_words_pt = stopwords.words('portuguese')
 # ================================
 # Carregamento do CSV fixo
 # ================================
-CSV_PATH = "proposicoes.csv"  # Ajuste o caminho se necessário
+CSV_PATH = "proposicoes_treinamento.csv"  # Ajuste o caminho se necessário
 df = pd.read_csv(CSV_PATH)
 
 # ================================
