@@ -3,17 +3,25 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from transformers import pipeline
+import nltk
+from nltk.corpus import stopwords
+
+# ================================
+# Baixar stopwords em português
+# ================================
+nltk.download('stopwords')
+stop_words_pt = stopwords.words('portuguese')
 
 # ================================
 # Carregamento do CSV fixo
 # ================================
-CSV_PATH = "proposicoes_treinamento.csv"  # Ajuste o nome do arquivo se necessário
+CSV_PATH = "proposicoes.csv"  # Ajuste o caminho se necessário
 df = pd.read_csv(CSV_PATH)
 
 # ================================
 # Preparação para sugestão de termos
 # ================================
-vectorizer = TfidfVectorizer(stop_words="portuguese")
+vectorizer = TfidfVectorizer(stop_words=stop_words_pt)
 X = vectorizer.fit_transform(df["ementa"].fillna(""))
 
 def sugerir_termos(novo_texto, top_n=5):
@@ -33,7 +41,7 @@ def sugerir_termos(novo_texto, top_n=5):
 summarizer = pipeline("summarization", model="t5-small", tokenizer="t5-small")
 
 def gerar_resumo(texto, tipo):
-    # Criamos um prompt que simula resumos do seu CSV
+    # Prompt simulando estilo legislativo do seu CSV
     prompt = f"Resuma o seguinte {tipo} em estilo legislativo, texto corrido, objetivo, sem perder informações essenciais:\n\n{texto}"
     resumo = summarizer(prompt, max_length=100, min_length=30, do_sample=False)
     return resumo[0]["summary_text"]
