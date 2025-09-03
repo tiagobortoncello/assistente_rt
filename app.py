@@ -3,10 +3,6 @@ import requests
 import json
 import os
 
-# ATENÇÃO: SUBSTITUA 'SUA_CHAVE_AQUI' PELA SUA CHAVE DE API REAL.
-# ESTA PRÁTICA É INSEGURA E NÃO RECOMENDADA PARA PROJETOS EM PRODUÇÃO.
-API_KEY = "AIzaSyA-ndkNImQKOxXxys_8jRL89n8_ULTXu9o"
-
 # Função para carregar o dicionário de termos de um arquivo de texto
 def carregar_dicionario_termos(nome_arquivo):
     """
@@ -70,17 +66,17 @@ def aplicar_logica_hierarquia(termos_sugeridos, mapa_hierarquia):
     return list(termos_finais)
 
 # Função para gerar resumo usando a API do Google Gemini
-def gerar_resumo(texto_original):
+def gerar_resumo(api_key, texto_original):
     """
     Gera um resumo a partir do texto original usando a API do Google Gemini.
     As regras para o resumo são fixas no prompt.
     """
     
-    if not API_KEY or API_KEY == "SUA_CHAVE_AQUI":
-        st.error("Erro: A chave de API não foi configurada no código. Por favor, substitua 'SUA_CHAVE_AQUI' pela sua chave real.")
+    if not api_key:
+        st.error("Erro: A chave de API não foi configurada. Por favor, insira sua chave no campo acima.")
         return None
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
     
     regras_adicionais = """
     - Use linguagem formal e evite gírias.
@@ -115,16 +111,16 @@ def gerar_resumo(texto_original):
     return "Não foi possível gerar o resumo. Verifique a chave de API e tente novamente."
 
 # Função para gerar termos de indexação usando a API do Google Gemini
-def gerar_termos_llm(texto_original, termos_dicionario):
+def gerar_termos_llm(api_key, texto_original, termos_dicionario):
     """
     Gera termos de indexação a partir do texto original, utilizando um dicionário de termos.
     """
 
-    if not API_KEY or API_KEY == "SUA_CHAVE_AQUI":
-        st.error("Erro: A chave de API não foi configurada no código. Por favor, substitua 'SUA_CHAVE_AQUI' pela sua chave real.")
+    if not api_key:
+        st.error("Erro: A chave de API não foi configurada. Por favor, insira sua chave no campo acima.")
         return None
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
 
     prompt_termos = f"""
     A partir do texto abaixo, selecione até 10 (dez) termos de indexação relevantes.
@@ -175,6 +171,9 @@ st.set_page_config(page_title="Gerador de Termos e Resumos de Proposições")
 st.title("Gerador de Termos e Resumos de Proposições")
 st.write("Insira o texto de uma proposição legislativa para gerar um resumo e termos de indexação.")
 
+# Campo para o usuário colar a chave da API
+API_KEY = st.text_input("Cole sua chave de API aqui:", type="password")
+
 # Dicionário de tipos de documento e seus respectivos arquivos de thesaurus
 TIPOS_DOCUMENTO = {
     "Documentos Gerais": "dicionario_termos.txt"
@@ -198,15 +197,17 @@ texto_proposicao = st.text_area(
 
 # Botão para gerar resumo e termos
 if st.button("Gerar Resumo e Termos"):
-    if not texto_proposicao:
+    if not API_KEY:
+        st.warning("Por favor, insira sua chave de API para continuar.")
+    elif not texto_proposicao:
         st.warning("Por favor, cole o texto da proposição para continuar.")
     else:
         with st.spinner('Gerando resumo e termos...'):
             # Gera o resumo
-            resumo_gerado = gerar_resumo(texto_proposicao)
+            resumo_gerado = gerar_resumo(API_KEY, texto_proposicao)
             
             # Gera os termos usando o modelo de IA
-            termos_sugeridos_brutos = gerar_termos_llm(texto_proposicao, termo_dicionario)
+            termos_sugeridos_brutos = gerar_termos_llm(API_KEY, texto_proposicao, termo_dicionario)
             
             # Aplica a lógica de hierarquia para priorizar termos específicos
             termos_finais = aplicar_logica_hierarquia(termos_sugeridos_brutos, mapa_hierarquia)
