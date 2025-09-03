@@ -83,6 +83,8 @@ def gerar_resumo(api_key, texto_original):
     - Mantenha um tom objetivo e neutro.
     - Enfatize os pontos principais da proposição, como a obrigatoriedade, os detalhes do atendimento e as penalidades.
     - Use verbos na terceira pessoa do singular.
+    - Inicie o resumo diretamente com um verbo na terceira pessoa do singular, sem sujeito explícito.
+    - Não inclua a parte sobre a vigência da lei (ex: "a lei entra em vigor na data de sua publicação").
     """
 
     prompt_resumo = f"""
