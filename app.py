@@ -114,36 +114,28 @@ def gerar_resumo(api_key, texto_original):
 def gerar_termos_llm(api_key, texto_original, termos_dicionario):
     """
     Gera termos de indexação a partir do texto original, utilizando um dicionário de termos.
+    A resposta é esperada em formato de lista JSON.
     """
-
     if not api_key:
         st.error("Erro: A chave de API não foi configurada. Por favor, insira sua chave no campo acima.")
         return None
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
 
+    # Ajusta o prompt para solicitar uma lista JSON explicitamente, sem usar o responseSchema.
     prompt_termos = f"""
     A partir do texto abaixo, selecione até 10 (dez) termos de indexação relevantes.
     Os termos de indexação devem ser selecionados EXCLUSIVAMENTE da seguinte lista:
     {", ".join(termos_dicionario)}
-    Se nenhum termo da lista for aplicável, a resposta deve ser uma lista vazia.
-    A resposta deve ser uma lista JSON de strings.
+    Se nenhum termo da lista for aplicável, a resposta deve ser uma lista JSON vazia: [].
+    A resposta DEVE ser uma lista JSON de strings, sem texto adicional antes ou depois.
     
     Texto da Proposição: {texto_original}
     """
     
     payload = {
         "contents": [{"parts": [{"text": prompt_termos}]}],
-        "tools": [{"google_search": {}}],
-        "generationConfig": {
-            "responseMimeType": "application/json",
-            "responseSchema": {
-                "type": "ARRAY",
-                "items": {
-                    "type": "STRING"
-                }
-            }
-        }
+        "tools": [{"google_search": {}}]
     }
 
     try:
@@ -153,6 +145,11 @@ def gerar_termos_llm(api_key, texto_original, termos_dicionario):
         
         # Extrai a string JSON e a converte para uma lista Python
         json_string = result.get("candidates", [])[0].get("content", {}).get("parts", [])[0].get("text", "[]")
+        
+        # O modelo pode retornar a lista entre aspas, se for o caso, remove as aspas.
+        if json_string.startswith('"') and json_string.endswith('"'):
+            json_string = json_string[1:-1]
+        
         termos_sugeridos = json.loads(json_string)
         
         return termos_sugeridos
