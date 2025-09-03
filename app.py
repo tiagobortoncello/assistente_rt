@@ -31,14 +31,18 @@ def sugerir_termos(novo_texto, top_n=5):
     termos = []
     for idx in indices:
         if pd.notna(df.iloc[idx]["termos"]):
-            termos.extend(str(df.iloc[idx]["termos"]).split("|"))  # <- ajustado para barra vertical
+            termos.extend(str(df.iloc[idx]["termos"]).split("|"))  # Ajustado para barra vertical
     termos = list(dict.fromkeys([t.strip() for t in termos if isinstance(t, str)]))
+
+    # 🔹 Filtrar apenas termos que aparecem no texto
+    termos = [t for t in termos if t.lower() in novo_texto.lower()]
+
     return termos[:5]
 
 # ================================
 # Modelo de resumo em português
 # ================================
-MODEL_NAME = "pierreguillou/t5-base-portuguese-sum"
+MODEL_NAME = "ml6team/mt5-small-portuguese-finetuned-summarization"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
@@ -47,7 +51,7 @@ summarizer = pipeline(
     "summarization",
     model=model,
     tokenizer=tokenizer,
-    device=-1  # força CPU (seguro)
+    device=-1  # força CPU
 )
 
 def gerar_resumo(texto, tipo):
