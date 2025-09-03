@@ -31,7 +31,7 @@ def sugerir_termos(novo_texto, top_n=5):
     termos = []
     for idx in indices:
         if pd.notna(df.iloc[idx]["termos"]):
-            termos.extend(str(df.iloc[idx]["termos"]).split(";"))
+            termos.extend(str(df.iloc[idx]["termos"]).split("|"))
     termos = list(dict.fromkeys([t.strip() for t in termos if isinstance(t, str)]))
     return termos[:5]
 
