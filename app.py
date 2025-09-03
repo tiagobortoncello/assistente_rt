@@ -6,14 +6,19 @@ import json
 import requests
 from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
 from collections import defaultdict
+import os
 
 # O download de stopwords é necessário para a parte de resumo (se o modelo precisar) e é uma boa prática
 nltk.download('stopwords', quiet=True)
 
 # --- Configuração do Gemini API para geração de termos ---
-# ATENÇÃO: Insira sua chave de API pessoal abaixo.
-# Você pode obtê-la no Google AI Studio: https://aistudio.google.com/app/apikey
-API_KEY = "AIzaSyBa9rAep3e1DO6SWWEPzdPAazjiHj6JzWc" 
+# ATENÇÃO: A chave de API agora é lida de uma variável de ambiente por segurança
+API_KEY = os.getenv("API_KEY")
+
+if not API_KEY:
+    st.error("Erro: A chave de API não foi encontrada. Por favor, configure a variável de ambiente 'API_KEY'.")
+    st.stop()
+    
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent"
 
 # --- Funções de Leitura e Processamento do Dicionário ---
