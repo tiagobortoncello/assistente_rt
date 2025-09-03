@@ -3,6 +3,10 @@ import requests
 import json
 import os
 
+# ATENÇÃO: SUBSTITUA 'SUA_CHAVE_AQUI' PELA SUA CHAVE DE API REAL.
+# ESTA PRÁTICA É INSEGURA E NÃO RECOMENDADA PARA PROJETOS EM PRODUÇÃO.
+API_KEY = "SUA_CHAVE_AQUI"
+
 # Função para carregar o dicionário de termos de um arquivo de texto
 def carregar_dicionario_termos(nome_arquivo):
     """
@@ -65,9 +69,8 @@ def gerar_resumo(texto_original):
     As regras para o resumo são fixas no prompt.
     """
     
-    API_KEY = os.environ.get("API_KEY")
-    if not API_KEY:
-        st.error("Erro: A chave de API não foi encontrada. Por favor, configure a variável de ambiente 'API_KEY'.")
+    if not API_KEY or API_KEY == "SUA_CHAVE_AQUI":
+        st.error("Erro: A chave de API não foi configurada no código. Por favor, substitua 'SUA_CHAVE_AQUI' pela sua chave real.")
         return None
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
@@ -110,9 +113,8 @@ def gerar_termos_llm(texto_original, termos_dicionario):
     Gera termos de indexação a partir do texto original, utilizando um dicionário de termos.
     """
 
-    API_KEY = os.environ.get("API_KEY")
-    if not API_KEY:
-        st.error("Erro: A chave de API não foi encontrada. Por favor, configure a variável de ambiente 'API_KEY'.")
+    if not API_KEY or API_KEY == "SUA_CHAVE_AQUI":
+        st.error("Erro: A chave de API não foi configurada no código. Por favor, substitua 'SUA_CHAVE_AQUI' pela sua chave real.")
         return None
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
