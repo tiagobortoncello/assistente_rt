@@ -13,7 +13,7 @@ nltk.download('stopwords', quiet=True)
 # --- Configuração do Gemini API para geração de termos ---
 # ATENÇÃO: Insira sua chave de API pessoal abaixo.
 # Você pode obtê-la no Google AI Studio: https://aistudio.google.com/app/apikey
-API_KEY = "INSIRA_SUA_CHAVE_AQUI" 
+API_KEY = "AIzaSyBa9rAep3e1DO6SWWEPzdPAazjiHj6JzWc" 
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent"
 
 # --- Funções de Leitura e Processamento do Dicionário ---
