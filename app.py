@@ -5,7 +5,7 @@ import os
 
 # ATENÇÃO: SUBSTITUA 'SUA_CHAVE_AQUI' PELA SUA CHAVE DE API REAL.
 # ESTA PRÁTICA É INSEGURA E NÃO RECOMENDADA PARA PROJETOS EM PRODUÇÃO.
-API_KEY = "AIzaSyBa9rAep3e1DO6SWWEPzdPAazjiHj6JzWc"
+API_KEY = "SUA_CHAVE_AQUI"
 
 # Função para carregar o dicionário de termos de um arquivo de texto
 def carregar_dicionario_termos(nome_arquivo):
@@ -24,22 +24,29 @@ def carregar_dicionario_termos(nome_arquivo):
                 if not line or line.startswith('#'):
                     continue
                 
-                partes = [p.strip() for p in line.split('>')]
+                partes = [p.strip() for p in line.split('>') if p.strip()]
                 
+                if not partes:
+                    continue
+
                 # Adiciona o termo mais específico (o último na cadeia)
                 termo_especifico = partes[-1]
                 if termo_especifico:
+                    termo_especifico = termo_especifico.replace('\t', '')
                     termos.append(termo_especifico)
                 
                 # Se houver hierarquia, mapeia a relação pai -> filho
                 if len(partes) > 1:
-                    termo_pai = partes[-2]
+                    termo_pai = partes[-2].replace('\t', '')
                     if termo_pai not in mapa_hierarquia:
                         mapa_hierarquia[termo_pai] = []
                     mapa_hierarquia[termo_pai].append(termo_especifico)
                     
     except FileNotFoundError:
         st.error(f"Erro: O arquivo '{nome_arquivo}' não foi encontrado.")
+        return [], {}
+    except Exception as e:
+        st.error(f"Ocorreu um erro ao carregar o dicionário de termos: {e}")
         return [], {}
         
     return termos, mapa_hierarquia
@@ -168,8 +175,20 @@ st.set_page_config(page_title="Gerador de Termos e Resumos de Proposições")
 st.title("Gerador de Termos e Resumos de Proposições")
 st.write("Insira o texto de uma proposição legislativa para gerar um resumo e termos de indexação.")
 
-# Carregar o dicionário de termos
-termo_dicionario, mapa_hierarquia = carregar_dicionario_termos("dicionario_termos.txt")
+# Dicionário de tipos de documento e seus respectivos arquivos de thesaurus
+TIPOS_DOCUMENTO = {
+    "Documentos Gerais": "dicionario_termos.txt"
+}
+
+# Caixa de seleção para tipo de documento
+tipo_documento_selecionado = st.selectbox(
+    "Selecione o tipo de documento:",
+    options=list(TIPOS_DOCUMENTO.keys()),
+)
+
+# Carregar o dicionário de termos com base na seleção
+arquivo_dicionario = TIPOS_DOCUMENTO[tipo_documento_selecionado]
+termo_dicionario, mapa_hierarquia = carregar_dicionario_termos(arquivo_dicionario)
 
 # Área de texto para entrada da proposição
 texto_proposicao = st.text_area(
