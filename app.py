@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from transformers import pipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForSeq2SeqLM
 import nltk
 from nltk.corpus import stopwords
 
@@ -36,19 +36,24 @@ def sugerir_termos(novo_texto, top_n=5):
     return termos[:5]
 
 # ================================
-# Modelo de resumo (forçando CPU)
+# Modelo de resumo em português
 # ================================
+MODEL_NAME = "pierreguillou/t5-base-portuguese-sum"
+
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
+
 summarizer = pipeline(
     "summarization",
-    model="t5-small",
-    tokenizer="t5-small",
-    device=-1  # força CPU e evita erro de meta tensor
+    model=model,
+    tokenizer=tokenizer,
+    device=-1  # força CPU (seguro)
 )
 
 def gerar_resumo(texto, tipo):
-    # Prompt simulando estilo legislativo do seu CSV
+    # Prompt simulando estilo legislativo
     prompt = f"Resuma o seguinte {tipo} em estilo legislativo, texto corrido, objetivo, sem perder informações essenciais:\n\n{texto}"
-    resumo = summarizer(prompt, max_length=100, min_length=30, do_sample=False)
+    resumo = summarizer(prompt, max_length=120, min_length=40, do_sample=False)
     return resumo[0]["summary_text"]
 
 # ================================
