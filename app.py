@@ -31,15 +31,15 @@ def carregar_dicionario_termos(filepath):
                 if not line:
                     continue
                 
-                partes = [p.strip() for p in line.split('>')]
+                partes = [p.strip() for p in line.split('>')][::-1]
                 
                 # Adiciona o termo mais específico à lista plana
-                termo_especifico = partes[-1]
+                termo_especifico = partes[0]
                 termos_plano.append(termo_especifico)
                 
                 # Mapeia o termo específico ao seu genérico (se houver)
                 if len(partes) > 1:
-                    termo_generico = partes[-2]
+                    termo_generico = partes[1]
                     hierarquia_mapa[termo_especifico] = termo_generico
                     # Adiciona o termo genérico à lista plana se ainda não estiver lá
                     if termo_generico not in termos_plano:
@@ -155,9 +155,12 @@ def load_summarizer():
 summarizer = load_summarizer()
 
 def gerar_resumo(texto, tipo):
-    """Gera um resumo do texto no estilo legislativo."""
-    prompt = f"Resuma o seguinte {tipo} em estilo legislativo, texto corrido, objetivo, sem perder informações essenciais:\n\n{texto}"
-    resumo = summarizer(prompt, max_length=120, min_length=40, do_sample=False)
+    """Gera um resumo do texto no estilo legislativo com regras fixas."""
+    regras_adicionais = "Use linguagem formal, evite gírias e mantenha um tom objetivo e neutro. O resumo deve usar verbos na terceira pessoa do singular."
+    
+    prompt_completo = f"Resuma o seguinte {tipo} em estilo legislativo, texto corrido, objetivo, sem perder informações essenciais:\n\n{texto}\n\nRegras adicionais: {regras_adicionais}"
+    
+    resumo = summarizer(prompt_completo, max_length=120, min_length=40, do_sample=False)
     return resumo[0]["summary_text"]
 
 # --- Interface Streamlit ---
