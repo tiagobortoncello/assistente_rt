@@ -5,7 +5,7 @@ import os
 
 # ATENÇÃO: SUBSTITUA 'SUA_CHAVE_AQUI' PELA SUA CHAVE DE API REAL.
 # ESTA PRÁTICA É INSEGURA E NÃO RECOMENDADA PARA PROJETOS EM PRODUÇÃO.
-API_KEY = "AIzaSyBa9rAep3e1DO6SWWEPzdPAazjiHj6JzWc"
+API_KEY = "AIzaSyBa9rAep3e1DO6SWWEPzdPAazjiHj6JzWcc"
 
 # Função para carregar o dicionário de termos de um arquivo de texto
 def carregar_dicionario_termos(nome_arquivo):
