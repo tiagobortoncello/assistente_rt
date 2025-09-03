@@ -1,0 +1,877 @@
+Thesaurus > Destinatários > Acompanhante Terapêutico
+Thesaurus > Destinatários > Analfabeto
+Thesaurus > Destinatários > Aposentado
+Thesaurus > Destinatários > Contribuinte
+Thesaurus > Destinatários > Criança e Adolescente > Adolescente
+Thesaurus > Destinatários > Criança e Adolescente > Criança
+Thesaurus > Destinatários > Criança e Adolescente > Menor infrator
+Thesaurus > Destinatários > Criminoso > Condenado
+Thesaurus > Destinatários > Criminoso > Detento
+Thesaurus > Destinatários > Desempregado
+Thesaurus > Destinatários > Homem
+Thesaurus > Destinatários > Idoso
+Thesaurus > Destinatários > Imigrante
+Thesaurus > Destinatários > Lésbicas, Gays, Bissexuais e Transgêneros (LGBT)
+Thesaurus > Destinatários > Mulher
+Thesaurus > Destinatários > Pensionista
+Thesaurus > Destinatários > Pessoa com Deficiência > Pessoa com Deficiência Auditiva
+Thesaurus > Destinatários > Pessoa com Deficiência > Pessoa com Deficiência Física
+Thesaurus > Destinatários > Pessoa com Deficiência > Pessoa com Deficiência Mental > Pessoa com Síndrome de Down
+Thesaurus > Destinatários > Pessoa com Deficiência > Pessoa com Deficiência Mental > Pessoa com Transtorno do Espectro Autista
+Thesaurus > Destinatários > Pessoa com Deficiência > Pessoa com Deficiência Visual
+Thesaurus > Destinatários > Pessoa com Deficiência > Pessoa com Mobilidade Reduzida
+Thesaurus > Destinatários > Pessoa com Transtorno de Déficit de Atenção e Hiperatividade
+Thesaurus > Destinatários > Pessoa de Baixa Renda
+Thesaurus > Destinatários > Pessoa Desaparecida
+Thesaurus > Destinatários > Pessoa em Situação de Rua
+Thesaurus > Destinatários > Pessoa em Situação de Vulnerabilidade Social
+Thesaurus > Destinatários > Pessoa Obesa
+Thesaurus > Destinatários > Povos e Comunidades Tradicionais > Indígena
+Thesaurus > Destinatários > Povos e Comunidades Tradicionais > Negro
+Thesaurus > Destinatários > Sem-Terra
+Thesaurus > Localidade Geográfica > África > Angola
+Thesaurus > Localidade Geográfica > América > América do Norte > Estados Unidos da América (EUA)
+Thesaurus > Localidade Geográfica > América > América do Norte > México
+Thesaurus > Localidade Geográfica > América > América Latina > América Central
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Argentina
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Bolívia
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Acre (AC)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Alagoas (AL)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Amapá (AP)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Amazonas (AM)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Bahia (BA)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Ceará (CE)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Distrito Federal (DF)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Espírito Santo (ES)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Goiás (GO)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Guanabara (GB)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Maranhão (MA)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Mato Grosso (MT)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Mato Grosso do Sul (MS)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Minas Gerais (MG)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Pará (PA)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Paraíba (PB)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Paraná (PR)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Pernambuco (PE)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Piauí (Estado) (PI)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Rio de Janeiro (RJ)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Rio Grande do Norte (RN)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Rio Grande do Sul (RS)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Rondônia (RO)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Roraima (RR)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Santa Catarina (SC)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > São Paulo (SP)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Sergipe (SE)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Brasil > Tocantins (Estado) (TO)
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Chile
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Colômbia
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Uruguai
+Thesaurus > Localidade Geográfica > América > América Latina > América do Sul > Venezuela
+Thesaurus > Localidade Geográfica > Ásia > Índia
+Thesaurus > Localidade Geográfica > Ásia > China
+Thesaurus > Localidade Geográfica > Ásia > Israel
+Thesaurus > Localidade Geográfica > Ásia > Japão
+Thesaurus > Localidade Geográfica > Ásia > Líbano
+Thesaurus > Localidade Geográfica > Ásia > Palestina
+Thesaurus > Localidade Geográfica > Ásia > Síria
+Thesaurus > Localidade Geográfica > Europa > Alemanha
+Thesaurus > Localidade Geográfica > Europa > Áustria
+Thesaurus > Localidade Geográfica > Europa > Eslovênia
+Thesaurus > Localidade Geográfica > Europa > Espanha
+Thesaurus > Localidade Geográfica > Europa > Grã-Bretanha
+Thesaurus > Localidade Geográfica > Europa > Hungria
+Thesaurus > Localidade Geográfica > Europa > Itália
+Thesaurus > Localidade Geográfica > Europa > Portugal
+Thesaurus > Localidade Geográfica > Oceania
+Thesaurus > Tema > Agropecuária > Agricultura
+Thesaurus > Tema > Agropecuária > Agricultura > Cafeicultura
+Thesaurus > Tema > Agropecuária > Agricultura > Cana-de-Açúcar (Cultivo)
+Thesaurus > Tema > Agropecuária > Agricultura > Doença de Planta
+Thesaurus > Tema > Agropecuária > Agricultura > Doença de Planta > Broca-do-Café
+Thesaurus > Tema > Agropecuária > Agricultura > Floricultura
+Thesaurus > Tema > Agropecuária > Agricultura > Fruticultura
+Thesaurus > Tema > Agropecuária > Agricultura > Horticultura
+Thesaurus > Tema > Agropecuária > Agricultura > Mandiocultura
+Thesaurus > Tema > Agropecuária > Agricultura > Oleicultura
+Thesaurus > Tema > Agropecuária > Agricultura > Sericicultura
+Thesaurus > Tema > Agropecuária > Agricultura > Silvicultura
+Thesaurus > Tema > Agropecuária > Agricultura > Triticultura
+Thesaurus > Tema > Agropecuária > Agricultura > Viticultura
+Thesaurus > Tema > Agropecuária > Aquicultura
+Thesaurus > Tema > Agropecuária > Aquicultura > Piscicultura
+Thesaurus > Tema > Agropecuária > Aquicultura > Ranicultura
+Thesaurus > Tema > Agropecuária > Insumo Agrícola
+Thesaurus > Tema > Agropecuária > Insumo Agrícola > Agrotóxico
+Thesaurus > Tema > Agropecuária > Insumo Agrícola > Bioinsumo
+Thesaurus > Tema > Agropecuária > Insumo Agrícola > Fertilizante
+Thesaurus > Tema > Agropecuária > Mercado Agropecuário
+Thesaurus > Tema > Agropecuária > Mercado Agropecuário > Agricultura Familiar
+Thesaurus > Tema > Agropecuária > Mercado Agropecuário > Agronegócio
+Thesaurus > Tema > Agropecuária > Mercado Agropecuário > Agropecuária Urbana
+Thesaurus > Tema > Agropecuária > Mercado Agropecuário > Crédito Rural
+Thesaurus > Tema > Agropecuária > Mercado Agropecuário > Extensão Rural
+Thesaurus > Tema > Agropecuária > Mercado Agropecuário > Seguro Agrícola
+Thesaurus > Tema > Agropecuária > Mercado Agropecuário > Título da Dívida Agrária (TDA)
+Thesaurus > Tema > Agropecuária > Pecuária
+Thesaurus > Tema > Agropecuária > Pecuária > Apicultura
+Thesaurus > Tema > Agropecuária > Pecuária > Avicultura
+Thesaurus > Tema > Agropecuária > Pecuária > Caprinocultura
+Thesaurus > Tema > Agropecuária > Pecuária > Cunicultura
+Thesaurus > Tema > Agropecuária > Pecuária > Doença Animal
+Thesaurus > Tema > Agropecuária > Pecuária > Doença Animal > Anemia Infecciosa Equina (AIE)
+Thesaurus > Tema > Agropecuária > Pecuária > Doença Animal > Brucelose Bovina
+Thesaurus > Tema > Agropecuária > Pecuária > Doença Animal > Febre Aftosa
+Thesaurus > Tema > Agropecuária > Pecuária > Doença Animal > Gripe Aviária
+Thesaurus > Tema > Agropecuária > Pecuária > Doença Animal > Peste Suína
+Thesaurus > Tema > Agropecuária > Pecuária > Equinocultura
+Thesaurus > Tema > Agropecuária > Pecuária > Ovinocultura
+Thesaurus > Tema > Agropecuária > Pecuária > Suinocultura
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária > Abate
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária > Agroecologia
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária > Colheita
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária > Combate à Praga
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária > Corretivo do Solo
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária > Irrigação
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária > Mecânica Agrícola
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária > Moagem
+Thesaurus > Tema > Agropecuária > Técnica Agropecuária > Pesca Extrativista
+Thesaurus > Tema > Assistência Social
+Thesaurus > Tema > Assistência Social > Assistência Jurídica
+Thesaurus > Tema > Assistência Social > Assistência Psicossocial
+Thesaurus > Tema > Assistência Social > Assistência Religiosa
+Thesaurus > Tema > Assistência Social > Avaliação Socioeconômica
+Thesaurus > Tema > Assistência Social > Inclusão Social
+Thesaurus > Tema > Assistência Social > Inclusão Social > Inclusão Digital
+Thesaurus > Tema > Assistência Social > Programa Social
+Thesaurus > Tema > Assistência Social > Programa Social > Auxílio Brasil
+Thesaurus > Tema > Assistência Social > Programa Social > Auxílio Emergencial
+Thesaurus > Tema > Assistência Social > Programa Social > Auxílio Financeiro
+Thesaurus > Tema > Assistência Social > Programa Social > Bolsa Família
+Thesaurus > Tema > Assistência Social > Programa Social > Minha Casa, Minha Vida
+Thesaurus > Tema > Assistência Social > Superação da Pobreza
+Thesaurus > Tema > Ciência, Tecnologia e Inovação
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Ciência, Pesquisa e Desenvolvimento
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Ciência, Pesquisa e Desenvolvimento > Fomento à Pesquisa
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Ciência, Pesquisa e Desenvolvimento > Parque Tecnológico
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Ciência, Pesquisa e Desenvolvimento > Patente
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Ciência, Pesquisa e Desenvolvimento > Plataforma Digital
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Processamento de Dados
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Processamento de Dados > Digitalização
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Processamento de Dados > Informatização
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Processamento de Dados > Informatização > Aplicativo
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Processamento de Dados > Informatização > Banco de Dados
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Processamento de Dados > Informatização > Inteligência Artificial (IA)
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Processamento de Dados > Informatização > Sistema de Computador
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Produto Eletrônico
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Produto Eletrônico > Drone
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Segurança de Dados
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Segurança de Dados > Autenticação Digital
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Segurança de Dados > Biometria
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Segurança de Dados > Certificação Digital
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Tecnologia da Informação e Comunicação (TIC)
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Tecnologia da Informação e Comunicação (TIC) > Documento Digital
+Thesaurus > Tema > Ciência, Tecnologia e Inovação > Tecnologia e Inovação > Tecnologia da Informação e Comunicação (TIC) > Governo Eletrônico
+Thesaurus > Tema > Comunicação
+Thesaurus > Tema > Comunicação > Comunicação Institucional
+Thesaurus > Tema > Comunicação > Comunicação Institucional > Calendário
+Thesaurus > Tema > Comunicação > Comunicação Institucional > Campanha de Conscientização
+Thesaurus > Tema > Comunicação > Comunicação Institucional > Luto Oficial
+Thesaurus > Tema > Comunicação > Comunicação Institucional > Manifestação
+Thesaurus > Tema > Comunicação > Comunicação Institucional > Manifestação > Manifestação de Pesar por Falecimento
+Thesaurus > Tema > Comunicação > Comunicação Institucional > Transcrição nos Anais
+Thesaurus > Tema > Comunicação > Congresso e Convenção
+Thesaurus > Tema > Comunicação > Infraestrutura de Comunicação
+Thesaurus > Tema > Comunicação > Meios de Comunicação
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Afixação de Cartaz
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Linguagem
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Linguagem > Código Braille
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Linguagem > Língua Brasileira de Sinais (LIBRAS)
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Linguagem > Linguagem Neutra
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Mídia Digital
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Mídia Digital > Internet
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Mídia Digital > Internet > Correio Eletrônico
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Mídia Digital > Internet > Sítio Eletrônico
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Mídia Digital > Intranet
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Mídia Digital > Redes Sociais
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Periódico
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Publicação Oficial
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Publicidade e Propaganda
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Publicidade e Propaganda > Divulgação
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Rádio (Meio de Comunicação)
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Telefonia
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Telefonia > Telefone Celular
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Telefonia > Telefone Fixo
+Thesaurus > Tema > Comunicação > Meios de Comunicação > Televisão
+Thesaurus > Tema > Comunicação > Serviço Gráfico
+Thesaurus > Tema > Comunicação > Fake News
+Thesaurus > Tema > Cultura
+Thesaurus > Tema > Cultura > Artes
+Thesaurus > Tema > Cultura > Artes > Artes Cênicas
+Thesaurus > Tema > Cultura > Artes > Artes Cênicas > Circo
+Thesaurus > Tema > Cultura > Artes > Artes Cênicas > Dança
+Thesaurus > Tema > Cultura > Artes > Artes Cênicas > Teatro
+Thesaurus > Tema > Cultura > Artes > Artes Plásticas
+Thesaurus > Tema > Cultura > Artes > Literatura
+Thesaurus > Tema > Cultura > Artes > Música
+Thesaurus > Tema > Cultura > Artes > Produção Audiovisual
+Thesaurus > Tema > Cultura > Circuito Cultural
+Thesaurus > Tema > Cultura > Direito Autoral
+Thesaurus > Tema > Cultura > Diversidade Cultural
+Thesaurus > Tema > Cultura > Diversidade Cultural > Culinária
+Thesaurus > Tema > Cultura > Diversidade Cultural > Cultura Afro-Brasileira
+Thesaurus > Tema > Cultura > Diversidade Cultural > Cultura Indígena
+Thesaurus > Tema > Cultura > Diversidade Cultural > Cultura Popular
+Thesaurus > Tema > Cultura > Diversidade Cultural > Religião
+Thesaurus > Tema > Cultura > Evento Cultural
+Thesaurus > Tema > Cultura > Gestão de Acervo
+Thesaurus > Tema > Cultura > Gestão de Acervo > Arquivo
+Thesaurus > Tema > Cultura > Gestão de Acervo > Biblioteca
+Thesaurus > Tema > Cultura > Gestão de Acervo > Museu
+Thesaurus > Tema > Cultura > Patrimônio Cultural
+Thesaurus > Tema > Cultura > Patrimônio Cultural > Monumento Cultural
+Thesaurus > Tema > Defesa do Consumidor
+Thesaurus > Tema > Defesa do Consumidor > Assistência Técnica
+Thesaurus > Tema > Defesa do Consumidor > Código de Defesa do Consumidor
+Thesaurus > Tema > Defesa do Consumidor > Crime Contra as Relações de Consumo
+Thesaurus > Tema > Defesa do Consumidor > Educação para o Consumo
+Thesaurus > Tema > Defesa do Consumidor > Espaço Preferencial
+Thesaurus > Tema > Defesa do Consumidor > Gratuidade
+Thesaurus > Tema > Defesa do Consumidor > Meia-Entrada
+Thesaurus > Tema > Defesa do Consumidor > Programa Estadual de Proteção ao Consumidor (PROCON)
+Thesaurus > Tema > Defesa do Consumidor > Proteção ao Crédito
+Thesaurus > Tema > Defesa do Consumidor > Proteção ao Crédito > Inadimplência
+Thesaurus > Tema > Defesa do Consumidor > Vício Oculto
+Thesaurus > Tema > Defesa do Consumidor > Serviço de Atendimento ao Público
+Thesaurus > Tema > Defesa do Consumidor > Serviço de Atendimento ao Público > Atendimento Prioritário
+Thesaurus > Tema > Defesa do Consumidor > Serviço de Atendimento ao Público > Atendimento Virtual
+Thesaurus > Tema > Direitos Humanos
+Thesaurus > Tema > Direitos Humanos > Anistia
+Thesaurus > Tema > Direitos Humanos > Direito à Defesa
+Thesaurus > Tema > Direitos Humanos > Direito à Identidade
+Thesaurus > Tema > Direitos Humanos > Direito à Identidade > Direito à Privacidade
+Thesaurus > Tema > Direitos Humanos > Direito à Identidade > Direito à Privacidade > Dados Pessoais
+Thesaurus > Tema > Direitos Humanos > Direito à Identidade > Direito ao Nome
+Thesaurus > Tema > Direitos Humanos > Direito à Identidade > Direito ao Nome > Nome Afetivo
+Thesaurus > Tema > Direitos Humanos > Direito à Identidade > Direito ao Nome > Nome Social
+Thesaurus > Tema > Direitos Humanos > Direito à Identidade > Documento de Identificação
+Thesaurus > Tema > Direitos Humanos > Direito à Identidade > Investigação de Paternidade
+Thesaurus > Tema > Direitos Humanos > Direito à Igualdade
+Thesaurus > Tema > Direitos Humanos > Direito à Igualdade > Ação Afirmativa
+Thesaurus > Tema > Direitos Humanos > Direito à Igualdade > Acessibilidade
+Thesaurus > Tema > Direitos Humanos > Direito à Igualdade > Igualdade de Gênero
+Thesaurus > Tema > Direitos Humanos > Direito à Igualdade > Igualdade Racial
+Thesaurus > Tema > Direitos Humanos > Direito à Igualdade > Reinserção Social
+Thesaurus > Tema > Direitos Humanos > Direito à Informação
+Thesaurus > Tema > Direitos Humanos > Direito à Informação > Informação Restrita
+Thesaurus > Tema > Direitos Humanos > Direito à Liberdade
+Thesaurus > Tema > Direitos Humanos > Direito à Liberdade > Liberdade de Expressão
+Thesaurus > Tema > Direitos Humanos > Direito à Liberdade > Liberdade de Locomoção
+Thesaurus > Tema > Direitos Humanos > Direito à Liberdade > Liberdade Religiosa
+Thesaurus > Tema > Direitos Humanos > Direito à Liberdade > Orientação sexual
+Thesaurus > Tema > Direitos Humanos > Direito à Segurança Jurídica
+Thesaurus > Tema > Direitos Humanos > Sexualização
+Thesaurus > Tema > Educação
+Thesaurus > Tema > Educação > Rede de Ensino
+Thesaurus > Tema > Educação > Rede de Ensino > Educação Pública
+Thesaurus > Tema > Educação > Rede de Ensino > Educação Pública > Educação Pública Estadual
+Thesaurus > Tema > Educação > Rede de Ensino > Educação Pública > Educação Pública Federal
+Thesaurus > Tema > Educação > Rede de Ensino > Educação Pública > Educação Pública Municipal
+Thesaurus > Tema > Educação > Rede de Ensino > Educação Privada
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Básica
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Básica > Educação Infantil
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Básica > Ensino Fundamental
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Básica > Ensino Médio
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Superior
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Superior > Graduação
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Superior > Pós-Graduação
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Profissional e Tecnológica
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Especial
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação de Jovens e Adultos
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação do Campo
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação em Tempo Integral
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Escolar Quilombola
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Escolar Indígena
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação à Distância
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação nos Sistemas Prisional e Socioeducativo
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Militar
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Cívico-Militar
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Domiciliar
+Thesaurus > Tema > Educação > Rede de Ensino > Modalidades de Ensino > Educação Bilíngue
+Thesaurus > Tema > Educação > Rede de Ensino > Educação não Formal
+Thesaurus > Tema > Educação > Rede de Ensino > Educação não Formal > Curso Preparatório
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Educação Artística
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Educação Física
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Educação Financeira
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Ensino Religioso
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Educação Sexual
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Educação das Relações Étnico-Raciais
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Educação para a Cidadania
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Atividade Extracurricular
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Atividade Extracurricular > Jogos Escolares
+Thesaurus > Tema > Educação > Rede de Ensino > Currículo Escolar > Atividade Extracurricular > Olimpíadas Escolares
+Thesaurus > Tema > Educação > Rede de Ensino > Avaliação Educacional
+Thesaurus > Tema > Educação > Rede de Ensino > Avaliação Educacional > Desempenho Escolar
+Thesaurus > Tema > Educação > Rede de Ensino > Avaliação Educacional > Evasão Escolar
+Thesaurus > Tema > Educação > Rede de Ensino > Avaliação Educacional > Qualidade da Educação
+Thesaurus > Tema > Educação > Rede de Ensino > Planejamento Educacional
+Thesaurus > Tema > Educação > Rede de Ensino > Planejamento Educacional > Plano Estadual de Educação
+Thesaurus > Tema > Educação > Rede de Ensino > Planejamento Educacional > Plano Municipal de Educação
+Thesaurus > Tema > Educação > Estabelecimento de Ensino
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Calendário Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Calendário Escolar > Férias Escolares
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Calendário Escolar > Período Letivo
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Frequência Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Turno Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Matrícula
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Conselho Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Colegiado Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Caixa Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Projeto Político-Pedagógico
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Infraestrutura Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Censo Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Documentação Estudantil
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Suporte Pedagógico
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Suporte Pedagógico > Direção Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Suporte Pedagógico > Docência
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Segurança nas Escolas
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Administração Escolar > Segurança nas Escolas > Bullying
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante > Alimentação Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante > Bolsa de Estudo
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante > Empréstimo Educacional
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante > Moradia Estudantil
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante > Saúde do Estudante
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante > Estágio Profissional
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante > Material Escolar
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante > Material Escolar > Livro Didático
+Thesaurus > Tema > Educação > Estabelecimento de Ensino > Assistência ao Estudante > Material Escolar > Uniforme Escolar
+Thesaurus > Tema > Energia
+Thesaurus > Tema > Energia > Crise Energética
+Thesaurus > Tema > Energia > Energia Elétrica
+Thesaurus > Tema > Energia > Energia Elétrica > Iluminação Pública
+Thesaurus > Tema > Energia > Energia Nuclear
+Thesaurus > Tema > Energia > Energia Renovável
+Thesaurus > Tema > Energia > Energia Renovável > Biomassa
+Thesaurus > Tema > Energia > Energia Renovável > Energia Eólica
+Thesaurus > Tema > Energia > Energia Renovável > Energia Hidrelétrica
+Thesaurus > Tema > Energia > Energia Renovável > Energia Solar
+Thesaurus > Tema > Energia > Energia Renovável > Hidrogênio Verde
+Thesaurus > Tema > Energia > Energia Térmica
+Thesaurus > Tema > Energia > Energia Térmica > Carvão Combustível
+Thesaurus > Tema > Energia > Energia Térmica > Combustível
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Biocombustível
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Biocombustível > Álcool Combustível
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Biocombustível > Biodiesel
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil > Gás
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil > Gás > Gás de Cozinha
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil > Gás > Gás Natural
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil > Petróleo
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil > Petróleo > Derivados de Petróleo
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil > Petróleo > Derivados de Petróleo > Gasolina
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil > Petróleo > Derivados de Petróleo > Óleo Diesel
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil > Petróleo > Derivados de Petróleo > Querosene
+Thesaurus > Tema > Energia > Energia Térmica > Combustível > Combustível Fóssil > Petróleo > Pré-Sal
+Thesaurus > Tema > Esporte e Lazer
+Thesaurus > Tema > Esporte e Lazer > Área de Recreação e Esportes
+Thesaurus > Tema > Esporte e Lazer > Área de Recreação e Esportes > Academia de Ginástica
+Thesaurus > Tema > Esporte e Lazer > Área de Recreação e Esportes > Autódromo
+Thesaurus > Tema > Esporte e Lazer > Área de Recreação e Esportes > Clube Recreativo
+Thesaurus > Tema > Esporte e Lazer > Área de Recreação e Esportes > Estádio
+Thesaurus > Tema > Esporte e Lazer > Área de Recreação e Esportes > Parque de Diversões
+Thesaurus > Tema > Esporte e Lazer > Esporte
+Thesaurus > Tema > Esporte e Lazer > Esporte > Bolsa-Atleta
+Thesaurus > Tema > Esporte e Lazer > Esporte > Esporte Amador
+Thesaurus > Tema > Esporte e Lazer > Esporte > Esporte Profissional
+Thesaurus > Tema > Esporte e Lazer > Esporte > Evento Esportivo
+Thesaurus > Tema > Esporte e Lazer > Esporte > Evento Esportivo > Competição Esportiva
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Atletismo
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Automobilismo
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Basquetebol
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Caça
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Caminhada
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Ciclismo
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Esporte de Combate
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Futebol
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Futebol de Salão
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Hipismo
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Montanhismo
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Natação
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Pesca Esportiva
+Thesaurus > Tema > Esporte e Lazer > Esporte > Modalidade Esportiva > Voleibol
+Thesaurus > Tema > Esporte e Lazer > Lazer
+Thesaurus > Tema > Esporte e Lazer > Lazer > Brinquedo
+Thesaurus > Tema > Esporte e Lazer > Lazer > Brinquedo > Pipa
+Thesaurus > Tema > Esporte e Lazer > Lazer > Escotismo
+Thesaurus > Tema > Esporte e Lazer > Lazer > Jogo
+Thesaurus > Tema > Esporte e Lazer > Lazer > Jogo > Bingo
+Thesaurus > Tema > Esporte e Lazer > Lazer > Jogo > Jogo de Azar
+Thesaurus > Tema > Esporte e Lazer > Lazer > Jogo > Jogo de Azar > Aposta Esportiva
+Thesaurus > Tema > Esporte e Lazer > Lazer > Jogo > Jogo de Azar > Caça-Níquel
+Thesaurus > Tema > Esporte e Lazer > Lazer > Jogo > Jogo de Azar > Cassino
+Thesaurus > Tema > Esporte e Lazer > Lazer > Jogo > Jogo de Azar > Jogo do Bicho
+Thesaurus > Tema > Esporte e Lazer > Lazer > Jogo > Jogo Eletrônico
+Thesaurus > Tema > Esporte e Lazer > Lazer > Jogo > Xadrez
+Thesaurus > Tema > Finanças Públicas
+Thesaurus > Tema > Finanças Públicas > Contas Públicas
+Thesaurus > Tema > Finanças Públicas > Contas Públicas > Parecer Prévio
+Thesaurus > Tema > Finanças Públicas > Contas Públicas > Prestação de Contas Anual
+Thesaurus > Tema > Finanças Públicas > Contas Públicas > Suspensão do Prazo de Análise
+Thesaurus > Tema > Finanças Públicas > Despesas Públicas
+Thesaurus > Tema > Finanças Públicas > Despesas Públicas > Dívida Pública
+Thesaurus > Tema > Finanças Públicas > Despesas Públicas > Dívida Pública > Programa de Pleno Pagamento de Dívidas dos Estados (PROPAG)
+Thesaurus > Tema > Finanças Públicas > Despesas Públicas > Dívida Pública > Regime de Recuperação Fiscal (RRF)
+Thesaurus > Tema > Finanças Públicas > Despesas Públicas > Indenização (Direito Civil)
+Thesaurus > Tema > Finanças Públicas > Despesas Públicas > Investimento Público
+Thesaurus > Tema > Finanças Públicas > Despesas Públicas > Investimento Público > Subvenção Social
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Conta Financeira de Previdência (CONFIP)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Apoio à Industrialização (FAI)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Apoio à Microempresa (FUMICRO)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Apoio ao Cinema
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Apoio às Atividades Mercantis (FAM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Apoio ao Desenvolvimento das Cidades Mineradoras (FADCM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Apoio Habitacional aos Militares do Estado de Minas Gerais (FAHMEMG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Apoio Habitacional da Assembleia Legislativa do Estado de Minas Gerais (FUNDHAB)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Assistência à Educação Física, Esporte Especializado e Futebol Amador (FAEFA)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Assistência ao Menor (FAM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Assistência ao Pecúlio dos Servidores Públicos do Estado de Minas Gerais (FUNAPEC)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Assistência ao Turismo (FASTUR)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Assistência de Caráter Social e Assistência Médica (FASMED)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Ativos Imobiliários de Minas Gerais (FAIMG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Combate à Tuberculose (FCT)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Defesa Ambiental (FDA)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento da Agropecuária Mineira (FUNDAGRO)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento de Cidades Intermediárias (FUNDECI)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento de Indústrias Estratégicas (FUNDIEST)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento do Ministério Público (FDMP)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento Econômico e Social (FUNDES)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento Metropolitano (FDM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento Metropolitano do Vale do Aço (FUNDEVALE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento Minerometalúrgico (FDMM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento Regional do Jaíba
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento Rural
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Desenvolvimento Urbano (FUNDEURB)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Eletrificação
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Equalização do Estado de Minas Gerais
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Erradicação da Miséria (FEM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Financiamento para Água e Esgotos (FAE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Financiamento para Água e Esgotos do Estado de Minas Gerais (FAE-MG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Fomento e Desenvolvimento Socioeconômico do Estado de Minas Gerais (FUNDESE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Garantia de Financiamento (FGF)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Garantias de Parcerias Público-Privadas de Minas Gerais (FGP-MG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Incentivo à Industrialização (FIND)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Incentivo a Renovação de Veículos Obsoletos (FIRVO)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Incentivo ao Desenvolvimento (FINDES)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Incentivo Cultural
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Incentivo Literário
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Investimento do Estado de Minas Gerais (MG INVESTE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Investimento e Participação (FIP)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Investimento Mínero-Metalúrgico
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Investimentos Imobiliários de Minas Gerais (FIIMG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Pagamento de Parcerias Público-Privadas de Minas Gerais (FPP-MG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Parcerias Público-Privadas do Estado de Minas Gerais
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Previdência Complementar do Servidor da Secretaria da Assembleia Legislativa (PRELEGIS)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Previdência do Estado de Minas Gerais (FUNPEMG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Proteção e Recuperação Ambiental da Estância Hidromineral de Araxá
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Recuperação, Proteção e Desenvolvimento Sustentável das Bacias Hidrográficas do Estado de Minas Gerais (FHIDRO)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Saneamento Ambiental das Bacias dos Ribeirões Arrudas e Onça (PROSAM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo de Universalização do Acesso a Serviços de Telecomunicação em Minas Gerais (FUNDOMIC)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo do Programa de Saneamento Ambiental, Organização e Modernização dos Municípios do Estado de Minas Gerais
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo do Tribunal de Contas do Estado de Minas Gerais (FUNCONTAS-TCEMG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial da Assembleia Legislativa do Estado de Minas Gerais (FUNDALEMG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial de Auxílio
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial de Créditos Inadimplidos e Dívida Ativa (FECIDAT)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial de Garantia de Acesso à Justiça (FEGAJ)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial de Participação e Expansão do Serviço Telefônico
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial do Ministério Público do Estado de Minas Gerais (FUNEMP)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial do Poder Judiciário do Estado de Minas Gerais (FEPJ)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial para Calamidade Pública (FUNECAP)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial Registral de Regularização Fundiária de Interesse Social (FERRFIS)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Especial Registral do Estado de Minas Gerais (RECOMPE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Apoio à Indústria Cinematográfica (FEAIC)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Assistência Social (FEAS)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Café (FECAFÉ)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Cultura (FEC)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Defesa de Direitos Difusos (FUNDIF)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Desenvolvimento Científico e Tecnológico (FUNCET)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Desenvolvimento de Comunidades
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Desenvolvimento de Transportes (FUNTRANS)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Desenvolvimento Rural (FUNDERUR)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Fomento ao Desenvolvimento da Economia Popular Solidária
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Habitação (FEH)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Habitação Popular (FUNDHAP)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Incentivo à Inovação Tecnológica (FIIT)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Prevenção, Fiscalização e Repressão de Entorpecentes (FUNPREN)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Previdência do Estado de Minas Gerais (FEPREMG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Promoção dos Direitos Humanos (FEPDH)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Proteção e Defesa do Consumidor (FEPDC)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Recuperação do Patrimônio Histórico Artístico e Arquitetônico (FUNPAT)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Saneamento
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Saneamento Básico (FESB)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Saúde (FES)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual de Segurança Pública de Minas Gerais (FESP-MG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual do Ensino Médio (FEEM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual do Patrimônio Histórico e Artístico
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual dos Direitos do Idoso
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Estadual para a Cidadania Fiscal Mineira (FECIFIM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Financeiro de Previdência (FUNFIP)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Financeiro de Previdência do Estado de Minas Gerais (FFP-MG)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Máquinas para o Desenvolvimento (FUNDOMAQ)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Mútuo de Investimento
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo para a Infância e a Adolescência (FIA)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Penitenciário Estadual (FPE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Previdenciário de Minas Gerais (FUNPREV)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Pró-Floresta
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Estaduais > Fundo Rotativo de Fomento à Agricultura Familiar e de Viabilização de Assentamentos Agrários
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Municipais
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Caixa de Construção de Casas para o Pessoal da Marinha (CCCPM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Caixa de Financiamento Imobiliário da Aeronáutica (CFIAE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo Constitucional de Financiamento do Centro-Oeste (FCO)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo Constitucional de Financiamento do Nordeste (FNE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo Constitucional de Financiamento do Norte (FNO)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Amparo ao Trabalhador (FAT)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Apoio ao Desenvolvimento Social (FAS)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Assistência ao Trabalhador Rural (FUNRURAL)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Desenvolvimento Regional (FDR)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Investimentos do Nordeste (FINOR)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (FUNDEB)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Manutenção e Desenvolvimento do Ensino Fundamental e de Valorização do Magistério (FUNDEF)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Participação dos Estados (FPE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Participação dos Municípios (FPM)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo de Terras e da Reforma Agrária (Banco da Terra)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo Nacional de Desenvolvimento (FND)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo Nacional de Desenvolvimento da Educação (FNDE)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo Nacional de Saúde (FNS)
+Thesaurus > Tema > Finanças Públicas > Fundos Públicos > Fundos Nacionais > Fundo Rodoviário Nacional
+Thesaurus > Tema > Finanças Públicas > Orçamento
+Thesaurus > Tema > Finanças Públicas > Orçamento > Ciclo Orçamentário
+Thesaurus > Tema > Finanças Públicas > Orçamento > Ciclo Orçamentário > Lei de Diretrizes Orçamentárias (LDO)
+Thesaurus > Tema > Finanças Públicas > Orçamento > Ciclo Orçamentário > Lei Orçamentária Anual (LOA)
+Thesaurus > Tema > Finanças Públicas > Orçamento > Ciclo Orçamentário > Plano Mineiro de Desenvolvimento Integrado (PMDI)
+Thesaurus > Tema > Finanças Públicas > Orçamento > Ciclo Orçamentário > Plano Plurianual de Ação Governamental (PPAG)
+Thesaurus > Tema > Finanças Públicas > Orçamento > Crédito Orçamentário
+Thesaurus > Tema > Finanças Públicas > Orçamento > Crédito Orçamentário > Crédito Especial
+Thesaurus > Tema > Finanças Públicas > Orçamento > Crédito Orçamentário > Crédito Extraordinário
+Thesaurus > Tema > Finanças Públicas > Orçamento > Crédito Orçamentário > Crédito Suplementar
+Thesaurus > Tema > Finanças Públicas > Orçamento > Emenda Orçamentária
+Thesaurus > Tema > Finanças Públicas > Orçamento > Emenda Orçamentária > Orçamento Impositivo
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Acordo Financeiro
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Empréstimo Público
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tarifas
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tarifas > Tarifa de Abastecimento de Água
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tarifas > Tarifa de Energia Elétrica
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tarifas > Tarifa de Pedágio
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tarifas > Tarifa de Transporte
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tarifas > Tarifa Postal e Telegráfica
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Transferências Governamentais
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Contribuição de Melhoria
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Contribuição de Melhoria > Contribuição de Intervenção no Domínio Econômicos (CIDE)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Contribuição de Melhoria > Contribuição para Financiamento da Seguridade Social (COFINS)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Contribuição de Melhoria > Contribuição Provisória Sobre a Movimentação Financeira (CPMF)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto de Circulação de Mercadorias (ICM)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto de Exportação
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto de Importação
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto de Indústrias e Profissões
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto de Renda (IR)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto de Vendas e Consignações
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto do Selo
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto sobre a Propriedade de Veículos Automotores (IPVA)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto Sobre a Propriedade Predial e Territorial Urbana (IPTU)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto sobre a Transmissão de Bens Imóveis (ITBI)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto sobre Circulação de Mercadorias (ICM)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto sobre Circulação de Mercadorias e Serviços (ICMS)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto Sobre Exploração Agrícola e Industrial
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto Sobre Minérios
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto sobre Operações Financeiras (IOF)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto sobre Produtos Industrializados (IPI)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto Sobre Serviços de Qualquer Natureza (ISSQN)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto sobre Transmissão Causa Mortis e Doação de Quaisquer Bens ou Direitos (ITCD)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto Territorial Rural (ITR)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Impostos > Imposto Único Sobre Minerais (IUM)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Acordo Tributário
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Alíquota Tributária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Base de Cálculo
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Conselho Nacional de Política Fazendária (CONFAZ)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Crédito Acumulado
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Crédito Presumido
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Crédito Tributário
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Diferimento Tributário
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Documento Fiscal
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Documento Fiscal > Fiscalização e Apreensão de Mercadoria
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Incentivo Fiscal
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Incidência Tributária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Isenção Tributária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Operação Tributária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Pagamento Tributário Indevido
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Penalidade Fiscal
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Recolhimento Tributário
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Regime Especial de Tributação
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Regulamento do Processo e dos Procedimentos Tributários Administrativos (RPTA)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Substituição Tributária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Suspensão Tributária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Política Tributária > Tratamento Diferenciado e Simplificado
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Reforma Tributária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Compensação Financeira pela Exploração de Recursos Minerais (CFEM)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Custas Judiciais
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Emolumento
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa Contra Fogo
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Assistência
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Assistência Hospitalar
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Controle e Fiscalização Ambiental do Estado de Minas Gerais (TFAMG)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Controle Monitoramento e Fiscalização das Atividades de Pesquisa, Lavra, Exploração e Aproveitamento de Recursos Minerários (TFRM)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Desenvolvimento Metalúrgico
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Eletrificação
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Estacionamento
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Estatística
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Expediente
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Fiscalização Judiciária (TFJ)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Fiscalização Sobre Serviços Públicos de Abastecimento de Água e Saneamento (TFAS)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Iluminação Pública
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Incêndio
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Inscrição em Concurso
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Licença de Aprendizagem e Direção Veicular (LADV)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Licenciamento para Uso Ou Ocupação da Faixa de Domínio das Rodovias (TFDR)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Limpeza Pública
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Ocupação de Terras Devolutas
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Registro de Veículos
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Renovação do Licenciamento Anual de Veículo (TRLAV)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Saneamento
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Segurança Pública
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa de Serviços de Recuperação Econômica
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa do Café
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa do Serviço do Fundo de Eletrificação
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa Escolar
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa Florestal
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa Judiciária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa Relativa à Fiscalização da Agência Estadual de Regulação dos Serviços Públicos de Minas Gerais (TARSEMG)
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa Rodoviária
+Thesaurus > Tema > Finanças Públicas > Receitas Públicas > Tributos > Taxas > Taxa Rodoviária Única (TRU)
+Thesaurus > Tema > Indústria, Comércio e Serviços
+Thesaurus > Tema > Indústria, Comércio e Serviços > Produto Artesanal
+Thesaurus > Tema > Indústria, Comércio e Serviços > Atividade Econômica
+Thesaurus > Tema > Indústria, Comércio e Serviços > Cartel
+Thesaurus > Tema > Indústria, Comércio e Serviços > Selo Empresarial
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empreendedorismo
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Comércio
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Comércio > Comércio Ambulante
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Comércio > Comércio Atacadista
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Comércio > Comércio Eletrônico
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Comércio > Comércio Exterior
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Comércio > Comércio Varejista
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Comércio > Franquia
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Organização da Sociedade Civil de Interesse Público (OSCIP)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Organização Social (OS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Serviço Social Autônomo (SSA)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Serviço Social Autônomo (SSA) > Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (SEBRAE)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Serviço Social Autônomo (SSA) > Serviço Nacional de Aprendizagem Comercial (SENAC)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Serviço Social Autônomo (SSA) > Serviço Nacional de Aprendizagem Industrial (SENAI)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Serviço Social Autônomo (SSA) > Serviço Social Autônomo Servas (SSA-SERVAS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Serviço Social Autônomo (SSA) > Serviço Social da Indústria (SESI)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Serviço Social Autônomo (SSA) > Serviço Social do Comércio (SESC)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Entidade Paraestatal > Serviço Social Autônomo (SSA) > Serviço Voluntário de Assistência Social (SERVAS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Indústria
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Porte das Empresas
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Porte das Empresas > Empresa de Médio Porte
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Porte das Empresas > Empresa Individual
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Porte das Empresas > Microempresa
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Porte das Empresas > Pequena Empresa
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Regulação do Mercado
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços > Serviço Bancário
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços > Serviço Bancário > Cooperativa de Economia e Crédito Mútuo dos Funcionários da Assembleia Legislativa do Estado de Minas Gerais (COFAL)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços > Serviço Bancário > Formas de Pagamento
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços > Serviço Bancário > Formas de Pagamento > Pix
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços > Serviço de Seguro
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços > Serviço de Seguro > Seguro de Acidente
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços > Serviço de Seguro > Seguro de Vida
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços > Serviço Funerário
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Serviços > Serviços Domésticos
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Cooperativa
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Cooperativa > Arranjo Produtivo Local (APL)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Aço Minas Gerais S.A. (AÇOMINAS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Banco do Estado de Minas Gerais S.A. (BEMGE)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Banco Hipotecário e Agrícola de Minas Gerais
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Companhia Aços Especiais Itabira (ACESITA)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Companhia Siderúrgica Nacional (CSN)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Companhia Telefônica do Brasil Central (CTBC)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Empresa Brasileira de Telecomunicações S.A. (EMBRATEL)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > MRS Logística S.A.
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Siderurgia Brasileira S.A. (SIDERBRAS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Sociedade Anônima do Futebol (SAF)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Universidade Católica de Minas Gerais
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Usinas Siderúrgicas de Minas Gerais S.A. (USIMINAS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Vale S.A.
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade Anônima > Viação Aérea Rio Grandense S.A. (VARIG)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Empresa Privada > Tipo de Empresa > Sociedade por Cotas de Responsabilidade Limitada
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Agência dos Estados Unidos para o Desenvolvimento Internacional (USAID)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Associação Latino-Americana de Integração (ALADI)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Banco Interamericano de Desenvolvimento (BID)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Banco Internacional de Reconstrução e Desenvolvimento (BIRD)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > BRICS
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Comissão Interamericana de Direitos Humanos (CIDH)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Corte Interamericana de Direitos Humanos (CORTE IDH)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Embaixada dos Estados Unidos da América
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Fundo Monetário Internacional (FMI)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Mercado Comum do Sul (MERCOSUL)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Organização das Nações Unidas (ONU)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Organização das Nações Unidas (ONU) > Fundo Internacional da ONU para Ajuda de Emergência à Infância (UNICEF)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Organização das Nações Unidas (ONU) > Organização da Aviação Civil Internacional (OACI)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Organização das Nações Unidas (ONU) > Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Organização das Nações Unidas (ONU) > Organização Internacional do Trabalho (OIT)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Organização das Nações Unidas (ONU) > Organização Mundial de Saúde (OMS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Organização das Nações Unidas (ONU) > Organização Mundial de Turismo (OMT)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > Organização dos Estados Americanos (OEA)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Entidade Internacional > União Europeia (UE)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Brasileira de Imprensa (ABI)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Brasileira de Irrigação e Drenagem (ABID)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Brasileira de Normas Técnicas (ABNT)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Brasileira de Relações Públicas (ABRP)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Comercial de Minas Gerais (ACMINAS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação de Crédito e Assistência Rural (ACAR)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação dos Pais e Amigos dos Excepcionais (APAE)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação dos Servidores Aposentados da Assembleia Legislativa do Estado de Minas Gerais (APLEMG)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação dos Servidores do Legislativo de Minas Gerais (ASLEMG)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Estadual de Crédito Popular
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Feminina de Assistência Social (ASFAS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Latino-Americana de Livre Comércio (ALALC)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Mineira de Municípios (AMM)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Associação Profissionalizante do Menor (ASSPROM)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Consórcio Administrativo Intermunicipal de Saúde
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Instituto de Arquitetos do Brasil (IAB)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > Maçonaria
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > União Nacional dos Legisladores e Legislativos Estaduais (UNALE)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Associação > União Parlamentar Interestadual (UPI)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Confederação
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Confederação > Confederação Brasileira de Futebol (CBF)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Confederação > Confederação Nacional da Agricultura (CNA)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Confederação > Confederação Nacional da Indústria (CNI)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Confederação > Confederação Nacional de Transporte (CNT)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Confederação > Confederação Nacional do Comércio (CNC)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Confederação > Confederação Nacional dos Artesãos do Brasil (CNARTS)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Confederação > Confederações Nacionais dos Trabalhadores
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Federação
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Federação > Federação da Agricultura e Pecuária do Estado de Minas Gerais (FAEMG)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Federação > Federação das Indústrias do Estado de Minas Gerais (FIEMG)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Federação > Federação das Indústrias do Estado de São Paulo (FIESP)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Federação > Federação do Comércio de Bens, Serviços e Turismo do Estado de Minas Gerais (FECOMÉRCIO-MG)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Federação > Federação do Comércio do Estado de Minas Gerais
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Federação > Federação Mineira de Futebol (FMF)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada > Fundação de Apoio ao Ensino Pesquisa e Extensão (FAEPE)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada > Fundação de Desenvolvimento da Pesquisa (FUNDEP)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada > Fundação Dom Bosco
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada > Fundação Getúlio Vargas (FGV)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada > Fundação Mariana Resende Costa (FUMARC)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada > Fundação Movimento Universitário de Desenvolvimento Econômico e Social (MUDES)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada > Fundação Pandiá Calógeras
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada > Fundação Renova
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Fundação Privada > Fundação Universitária Mineira (FUM)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Instituição de Acolhimento
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Instituição de Acolhimento > Asilo
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Instituição de Acolhimento > Orfanato
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Instituição Religiosa
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Sindicato
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Sindicato > Sindicato de Empregados
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Sindicato > Sindicato de Empregados > Departamento Intersindical de Estatística e Estudos Socioeconômicos (DIEESE)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Sindicato > Sindicato de Empregados > Sindicato dos Servidores da Assembleia Legislativa do Estado de Minas Gerais (SINDALEMG)
+Thesaurus > Tema > Indústria, Comércio e Serviços > Sociedade Civil > Sindicato > Sindicato Patronal
+Thesaurus > Tema > Indústria, Comércio e Serviços > Startup
+Thesaurus > Tema > Indústria, Comércio e Serviços > Telemarketing
+Thesaurus > Tema > Meio Ambiente
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Aquecimento Global
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Chuvas e Enchentes
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Desastre Ambiental
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Desmatamento
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Incêndio Florestal
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Poluição Atmosférica
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Poluição da Água
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Poluição do Solo
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Poluição Sonora
+Thesaurus > Tema > Meio Ambiente > Degradação Ambiental > Seca
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Crime Ambiental
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Crime Ambiental > Tráfico de Animais Silvestres
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Fiscalização Ambiental
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Fiscalização Ambiental > Auditoria Ambiental
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Fiscalização Ambiental > Compensação Ambiental
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Fiscalização Ambiental > Licença Ambiental
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Preservação Ambiental
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Preservação Ambiental > Desenvolvimento Sustentável
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Preservação Ambiental > Educação Ambiental
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Preservação Ambiental > Manejo Ecológico
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Preservação Ambiental > Mecanismo de Desenvolvimento Limpo (MDL)
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Preservação Ambiental > Mecanismo de Desenvolvimento Limpo (MDL) > Créditos de Carbono
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Proteção aos Animais
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Proteção aos Animais > Castração
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Proteção aos Animais > Crueldade contra Animal
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Proteção aos Animais > Doença de Animal Doméstico
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Proteção aos Animais > Estabelecimento Veterinário
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Recuperação Ambiental
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Recuperação Ambiental > Reflorestamento
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Unidade de Conservação
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Unidade de Conservação > Área de Preservação Permanente (APP)
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Unidade de Conservação > Área de Proteção Ambiental (APA)
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Unidade de Conservação > Área de Proteção Especial (APE)
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Unidade de Conservação > Estação Ecológica (EE)
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Unidade de Conservação > Monumento Natural (MONA)
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Unidade de Conservação > Parque Público
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Unidade de Conservação > Reserva Legal
+Thesaurus > Tema > Meio Ambiente > Gestão Ambiental > Unidade de Conservação > Reserva Particular de Recomposição Ambiental (RPRA)
+Thesaurus > Tema > Meio Ambiente > Mudança Climática
+Thesaurus > Tema > Meio Ambiente > Recurso Natural
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Acidente Geográfico
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Acidente Geográfico > Pico
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Acidente Geográfico > Serra (Acidente Geográfico)
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Recursos Hídricos
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Recursos Hídricos > Água Subterrânea
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Recursos Hídricos > Lagoa
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Recursos Hídricos > Nascente
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Recursos Hídricos > Rio
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Fauna
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Flora
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Flora > Amazônia
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Flora > Vegetação Nativa
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Flora > Vegetação Nativa > Caatinga
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Flora > Vegetação Nativa > Cerrado
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Flora > Vegetação Nativa > Mata Atlântica
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Flora > Vegetação Nativa > Mata Seca
+Thesaurus > Tema > Meio Ambiente > Recurso Natural > Flora > Espécie Imune de Corte
+Thesaurus > Tema > Mineração
+Thesaurus > Tema > Mineração > Barragem de Rejeitos
+Thesaurus > Tema > Mineração > Beneficiamento Mineral
+Thesaurus > Tema > Mineração > Beneficiamento Mineral > Metalurgia
+Thesaurus > Tema > Mineração > Beneficiamento Mineral > Metalurgia > Fundição
+Thesaurus > Tema > Mineração > Beneficiamento Mineral > Metalurgia > Siderurgia
+Thesaurus > Tema > Mineração > Garimpagem
+Thesaurus > Tema > Mineração > Lavra de Minério
+Thesaurus > Tema > Mineração > Mina
+Thesaurus > Tema > Mineração > Mineroduto
+Thesaurus > Tema > Mineração > Pesquisa de Minério
+Thesaurus > Tema > Mineração > Recurso Mineral
+Thesaurus > Tema > Mineração > Recurso Mineral > Mineral Metálico
+Thesaurus > Tema > Mineração > Recurso Mineral > Mineral Metálico > Lítio
+Thesaurus > Tema > Mineração > Recurso Mineral > Mineral Não Metálico
+Thesaurus > Tema > Mineração > Recurso Mineral > Pedra Preciosa
+Thesaurus > Tema > Mineração > Recurso Mineral > Rocha Ornamental
