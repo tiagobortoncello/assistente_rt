@@ -143,24 +143,37 @@ def gerar_termos_llm(api_key, texto_original, termos_dicionario):
         response.raise_for_status()
         result = response.json()
         
-        # Extrai a string JSON e a converte para uma lista Python
+        # Extrai a string que o modelo retornou
         json_string = result.get("candidates", [])[0].get("content", {}).get("parts", [])[0].get("text", "[]")
         
-        # O modelo pode retornar a lista entre aspas, se for o caso, remove as aspas.
-        if json_string.startswith('"') and json_string.endswith('"'):
-            json_string = json_string[1:-1]
-        
-        # Tenta carregar o JSON e garante que seja uma lista
-        termos_sugeridos = json.loads(json_string)
-        if not isinstance(termos_sugeridos, list):
-            return []
+        # Lógica de validação mais robusta
+        termos_sugeridos = []
+        try:
+            # Tenta decodificar o JSON diretamente
+            termos_sugeridos = json.loads(json_string)
+            if not isinstance(termos_sugeridos, list):
+                termos_sugeridos = []
+        except json.JSONDecodeError:
+            # Se a decodificação falhar, tenta extrair a lista manualmente
+            try:
+                # Procura a lista entre colchetes
+                start = json_string.find('[')
+                end = json_string.rfind(']')
+                if start != -1 and end != -1:
+                    json_string_limpa = json_string[start:end+1]
+                    termos_sugeridos = json.loads(json_string_limpa)
+                    if not isinstance(termos_sugeridos, list):
+                        termos_sugeridos = []
+                else:
+                    termos_sugeridos = []
+            except Exception:
+                # Se tudo falhar, retorna uma lista vazia
+                termos_sugeridos = []
         
         return termos_sugeridos
         
     except requests.exceptions.HTTPError as http_err:
         st.error(f"Erro na comunicação com a API: {http_err}")
-    except json.JSONDecodeError:
-        st.error("Erro ao decodificar a resposta JSON do modelo.")
     except Exception as e:
         st.error(f"Ocorreu um erro: {e}")
         
