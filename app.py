@@ -150,7 +150,10 @@ def gerar_termos_llm(api_key, texto_original, termos_dicionario):
         if json_string.startswith('"') and json_string.endswith('"'):
             json_string = json_string[1:-1]
         
+        # Tenta carregar o JSON e garante que seja uma lista
         termos_sugeridos = json.loads(json_string)
+        if not isinstance(termos_sugeridos, list):
+            return []
         
         return termos_sugeridos
         
