@@ -31,14 +31,19 @@ def sugerir_termos(novo_texto, top_n=5):
     termos = []
     for idx in indices:
         if pd.notna(df.iloc[idx]["termos"]):
-            termos.extend(str(df.iloc[idx]["termos"]).split("|"))
+            termos.extend(str(df.iloc[idx]["termos"]).split("|"))  # <- ajustado para barra vertical
     termos = list(dict.fromkeys([t.strip() for t in termos if isinstance(t, str)]))
     return termos[:5]
 
 # ================================
-# Modelo de resumo (gratuito)
+# Modelo de resumo (forçando CPU)
 # ================================
-summarizer = pipeline("summarization", model="t5-small", tokenizer="t5-small")
+summarizer = pipeline(
+    "summarization",
+    model="t5-small",
+    tokenizer="t5-small",
+    device=-1  # força CPU e evita erro de meta tensor
+)
 
 def gerar_resumo(texto, tipo):
     # Prompt simulando estilo legislativo do seu CSV
