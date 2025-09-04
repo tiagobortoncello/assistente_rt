@@ -72,10 +72,10 @@ def gerar_resumo(texto_original):
     As regras para o resumo são fixas no prompt.
     """
     
-    # Tenta obter a chave de API do st.secrets
-    try:
-        api_key = st.secrets["GOOGLE_API_KEY"]
-    except KeyError:
+    # Tenta obter a chave de API do st.secrets de forma segura
+    api_key = st.secrets.get("GOOGLE_API_KEY")
+
+    if not api_key:
         st.error("Erro: A chave de API não foi configurada. Por favor, adicione-a no arquivo .streamlit/secrets.toml ou nos segredos do repositório no GitHub.")
         return None
 
@@ -132,10 +132,10 @@ def gerar_termos_llm(texto_original, termos_dicionario):
     Gera termos de indexação a partir do texto original, utilizando um dicionário de termos.
     A resposta é esperada em formato de lista JSON.
     """
-    # Tenta obter a chave de API do st.secrets
-    try:
-        api_key = st.secrets["GOOGLE_API_KEY"]
-    except KeyError:
+    # Tenta obter a chave de API do st.secrets de forma segura
+    api_key = st.secrets.get("GOOGLE_API_KEY")
+    
+    if not api_key:
         st.error("Erro: A chave de API não foi configurada. Por favor, adicione-a no arquivo .streamlit/secrets.toml ou nos segredos do repositório no GitHub.")
         return None
 
@@ -165,28 +165,25 @@ def gerar_termos_llm(texto_original, termos_dicionario):
         # Extrai a string que o modelo retornou
         json_string = result.get("candidates", [])[0].get("content", {}).get("parts", [])[0].get("text", "[]")
         
-        # Lógica de validação mais robusta
+        # Nova lógica de validação: tenta carregar o JSON e garante que seja uma lista
         termos_sugeridos = []
         try:
-            # Tenta decodificar o JSON diretamente
+            # Tenta decodificar o JSON
             termos_sugeridos = json.loads(json_string)
+            # Se não for uma lista, o transforma em uma lista vazia para evitar o erro
             if not isinstance(termos_sugeridos, list):
                 termos_sugeridos = []
-        except json.JSONDecodeError:
-            # Se a decodificação falhar, tenta extrair a lista manualmente
+        except (json.JSONDecodeError, TypeError):
+            # Se a decodificação falhar, tenta limpar a string e decodificar novamente
             try:
-                # Procura a lista entre colchetes
-                start = json_string.find('[')
-                end = json_string.rfind(']')
-                if start != -1 and end != -1:
-                    json_string_limpa = json_string[start:end+1]
+                json_string_limpa = json_string.strip().strip('`').strip()
+                # Verifica se a string limpa tem o formato de lista
+                if json_string_limpa.startswith('[') and json_string_limpa.endswith(']'):
                     termos_sugeridos = json.loads(json_string_limpa)
-                    if not isinstance(termos_sugeridos, list):
-                        termos_sugeridos = []
-                else:
+                # Garante que o resultado é uma lista
+                if not isinstance(termos_sugeridos, list):
                     termos_sugeridos = []
             except Exception:
-                # Se tudo falhar, retorna uma lista vazia
                 termos_sugeridos = []
         
         return termos_sugeridos
