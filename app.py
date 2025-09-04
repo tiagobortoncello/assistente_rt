@@ -183,7 +183,11 @@ def gerar_termos_llm(api_key, texto_original, termos_dicionario):
 
 # Configuração da página e UI
 st.set_page_config(page_title="Gerador de Termos e Resumos de Proposições")
-st.title("Gerador de Termos e Resumos de Proposições")
+
+# Título e Subtítulo Centralizados usando HTML
+st.markdown("<h1 style='text-align: center;'>Gerador de Termos e Resumos de Proposições</h1>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>Gerência de Informação Legislativa – GIL/GDI</h3>", unsafe_allow_html=True)
+
 st.write("Insira o texto de uma proposição legislativa para gerar um resumo e termos de indexação.")
 
 # Campo para o usuário colar a chave da API
