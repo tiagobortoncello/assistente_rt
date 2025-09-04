@@ -82,7 +82,8 @@ def gerar_resumo(api_key, texto_original):
     - Mantenha o resumo em um único parágrafo, com no máximo 4 frases.
     - Use linguagem formal e evite gírias.
     - Mantenha um tom objetivo e neutro.
-    - Use verbos na terceira pessoa do singular.
+    - Use verbos na terceira pessoa do singular, na voz ativa.
+    - Evite o uso de verbos com partícula apassivadora ou de indeterminação do sujeito (Exemplo: "Aciona-se", "Cria-se").
     - Separe as siglas com o caractere "–". Por exemplo: 'MP – Medida Provisória'.
     - Inicie o resumo diretamente com um verbo na terceira pessoa do singular, sem sujeito explícito.
     - Não inclua a parte sobre a vigência da lei (ex: "a lei entra em vigor na data de sua publicação").
