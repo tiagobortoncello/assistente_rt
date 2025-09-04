@@ -189,12 +189,14 @@ def processar_utilidade_publica(texto):
     """
     # Verifica se a frase 'Declara de utilidade pública' está no texto
     if "Declara de utilidade pública" in texto:
-        # Tenta extrair o nome do município
-        match = re.search(r"do Município de (.+?)(?:,| | de)", texto, re.IGNORECASE)
+        # A regex foi atualizada para ser mais robusta, capturando o nome do município
+        # seguido por uma vírgula, a palavra 'e', um ponto, uma nova linha ou o fim do texto.
+        match = re.search(r"do Município de (.+?)(?:,| e |\.|\n|$)", texto, re.IGNORECASE)
         municipio = "Município não encontrado"
         if match:
+            # Captura o nome do município
             municipio = match.group(1).strip()
-            # Remove vírgula ou ponto no final do nome
+            # Remove vírgula ou ponto no final do nome, caso a regex não o faça
             if municipio.endswith(','):
                 municipio = municipio[:-1]
         
