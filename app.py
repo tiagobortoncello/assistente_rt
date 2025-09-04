@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import json
 import os
+import pandas as pd
 
 # Função para carregar o dicionário de termos de um arquivo de texto
 def carregar_dicionario_termos(nome_arquivo):
@@ -113,20 +114,34 @@ def gerar_resumo(api_key, texto_original):
     return "Não foi possível gerar o resumo. Verifique a chave de API e tente novamente."
 
 # Função para gerar termos de indexação usando a API do Google Gemini
-def gerar_termos_llm(api_key, texto_original, termos_dicionario):
+# A função agora recebe uma lista de exemplos
+def gerar_termos_llm(api_key, texto_original, termos_dicionario, exemplos_csv):
     """
     Gera termos de indexação a partir do texto original, utilizando um dicionário de termos.
     A resposta é esperada em formato de lista JSON.
+    Inclui exemplos de ementas e termos de indexação do CSV para orientar a IA.
     """
     if not api_key:
         st.error("Erro: A chave de API não foi configurada. Por favor, insira sua chave no campo acima.")
         return None
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
+    
+    # Formata os exemplos para inclusão no prompt
+    exemplo_str = ""
+    for exemplo in exemplos_csv:
+        ementa = exemplo['Ementa']
+        termos = exemplo['Termos']
+        exemplo_str += f"Texto de Exemplo: {ementa}\nTermos de Exemplo: {termos}\n\n"
 
-    # Ajusta o prompt para solicitar uma lista JSON explicitamente, sem usar o responseSchema.
+    # Ajusta o prompt para incluir os exemplos
     prompt_termos = f"""
-    A partir do texto abaixo, selecione até 10 (dez) termos de indexação relevantes.
+    Sua tarefa é selecionar termos de indexação para um texto.
+    
+    Considere os seguintes exemplos para entender o padrão de indexação:
+    {exemplo_str}
+    
+    Agora, a partir do texto abaixo, selecione até 10 (dez) termos de indexação relevantes.
     Os termos de indexação devem ser selecionados EXCLUSIVAMENTE da seguinte lista:
     {", ".join(termos_dicionario)}
     Se nenhum termo da lista for aplicável, a resposta deve ser uma lista JSON vazia: [].
@@ -145,20 +160,15 @@ def gerar_termos_llm(api_key, texto_original, termos_dicionario):
         response.raise_for_status()
         result = response.json()
         
-        # Extrai a string que o modelo retornou
         json_string = result.get("candidates", [])[0].get("content", {}).get("parts", [])[0].get("text", "[]")
         
-        # Lógica de validação mais robusta
         termos_sugeridos = []
         try:
-            # Tenta decodificar o JSON diretamente
             termos_sugeridos = json.loads(json_string)
             if not isinstance(termos_sugeridos, list):
                 termos_sugeridos = []
         except json.JSONDecodeError:
-            # Se a decodificação falhar, tenta extrair a lista manualmente
             try:
-                # Procura a lista entre colchetes
                 start = json_string.find('[')
                 end = json_string.rfind(']')
                 if start != -1 and end != -1:
@@ -169,7 +179,6 @@ def gerar_termos_llm(api_key, texto_original, termos_dicionario):
                 else:
                     termos_sugeridos = []
             except Exception:
-                # Se tudo falhar, retorna uma lista vazia
                 termos_sugeridos = []
         
         return termos_sugeridos
@@ -192,6 +201,19 @@ st.write("Insira o texto de uma proposição legislativa para gerar um resumo e 
 
 # Campo para o usuário colar a chave da API
 API_KEY = st.text_input("Cole sua chave de API aqui:", type="password")
+
+# Carregar exemplos do CSV
+try:
+    df_exemplos = pd.read_csv("proposicoes_treinamento.csv", encoding="utf-8")
+    # Seleciona algumas linhas aleatoriamente para usar como exemplos
+    exemplos_para_ia = df_exemplos.sample(n=3).to_dict('records') # Altere 'n=3' para a quantidade de exemplos que você deseja
+except FileNotFoundError:
+    st.warning("Arquivo 'proposicoes_treinamento.csv' não encontrado. O modelo não usará exemplos para a indexação.")
+    exemplos_para_ia = []
+except Exception as e:
+    st.error(f"Ocorreu um erro ao carregar a planilha de exemplos: {e}")
+    exemplos_para_ia = []
+
 
 # Dicionário de tipos de documento e seus respectivos arquivos de thesaurus
 TIPOS_DOCUMENTO = {
@@ -225,8 +247,8 @@ if st.button("Gerar Resumo e Termos"):
             # Gera o resumo
             resumo_gerado = gerar_resumo(API_KEY, texto_proposicao)
             
-            # Gera os termos usando o modelo de IA
-            termos_sugeridos_brutos = gerar_termos_llm(API_KEY, texto_proposicao, termo_dicionario)
+            # Gera os termos usando o modelo de IA e passando os exemplos
+            termos_sugeridos_brutos = gerar_termos_llm(API_KEY, texto_proposicao, termo_dicionario, exemplos_para_ia)
             
             # Aplica a lógica de hierarquia para priorizar termos específicos
             termos_finais = aplicar_logica_hierarquia(termos_sugeridos_brutos, mapa_hierarquia)
