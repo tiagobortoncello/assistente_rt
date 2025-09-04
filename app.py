@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import json
 import os
+import re
 
 # Função para carregar o dicionário de termos de um arquivo de texto
 def carregar_dicionario_termos(nome_arquivo):
@@ -178,25 +179,18 @@ def gerar_termos_llm(texto_original, termos_dicionario):
         # Extrai a string que o modelo retornou
         json_string = result.get("candidates", [])[0].get("content", {}).get("parts", [])[0].get("text", "[]")
         
-        # Nova lógica de validação: tenta carregar o JSON e garante que seja uma lista
+        # Lógica de validação mais robusta: usa regex para encontrar a lista JSON
+        # e tenta decodificá-la. Isso ignora texto extra antes ou depois.
+        match = re.search(r'\[.*\]', json_string, re.DOTALL)
         termos_sugeridos = []
-        try:
-            # Tenta decodificar o JSON
-            termos_sugeridos = json.loads(json_string)
-            # Se não for uma lista, o transforma em uma lista vazia para evitar o erro
-            if not isinstance(termos_sugeridos, list):
-                termos_sugeridos = []
-        except (json.JSONDecodeError, TypeError):
-            # Se a decodificação falhar, tenta limpar a string e decodificar novamente
+        if match:
+            json_list_string = match.group(0)
             try:
-                json_string_limpa = json_string.strip().strip('`').strip()
-                # Verifica se a string limpa tem o formato de lista
-                if json_string_limpa.startswith('[') and json_string_limpa.endswith(']'):
-                    termos_sugeridos = json.loads(json_string_limpa)
-                # Garante que o resultado é uma lista
+                termos_sugeridos = json.loads(json_list_string)
                 if not isinstance(termos_sugeridos, list):
                     termos_sugeridos = []
-            except Exception:
+            except json.JSONDecodeError:
+                # Se a decodificação falhar, retorna uma lista vazia
                 termos_sugeridos = []
         
         return termos_sugeridos
