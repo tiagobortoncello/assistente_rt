@@ -79,15 +79,21 @@ def gerar_resumo(api_key, texto_original):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
     
     regras_adicionais = """
-    - Mantenha o resumo objetivo e informativo, com foco nas principais ações da proposição.
+    - Mantenha o resumo em um único parágrafo, com no máximo 4 frases.
     - Use linguagem formal e evite gírias.
     - Mantenha um tom objetivo e neutro.
     - Use verbos na terceira pessoa do singular.
     - Separe as siglas com o caractere "–". Por exemplo: 'MP – Medida Provisória'.
     - Inicie o resumo diretamente com um verbo na terceira pessoa do singular, sem sujeito explícito.
     - Não inclua a parte sobre a vigência da lei (ex: "a lei entra em vigor na data de sua publicação").
-    - Mencione os pontos-chave da proposição: o que ela institui, seu objetivo, quem é o público-alvo, como o mecanismo de alerta é acionado e as informações que podem ser compartilhadas.
-    - Evite mencionar detalhes secundários, como nomes de programas específicos (ex: "Alerta TEA-MG"), tipos de unidade policial ou nomes de órgãos federais.
+    - O resumo deve focar em três pontos principais:
+        1. O que o programa institui e a quem se destina.
+        2. Quem aciona o alerta e em que condições.
+        3. Quais informações podem ser incluídas nas mensagens e quais tecnologias são permitidas, de forma geral, sem citar detalhes específicos ou exemplos.
+    - O resumo não deve mencionar:
+        - Detalhes sobre a Lei Geral de Proteção de Dados – LGPD.
+        - Detalhes específicos sobre a Defesa Civil, ANATEL – Agência Nacional de Telecomunicações – ou outros órgãos.
+        - Nomes específicos de programas (ex: "Alerta TEA-MG").
     """
 
     prompt_resumo = f"""
