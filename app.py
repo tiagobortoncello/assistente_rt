@@ -65,18 +65,32 @@ def aplicar_logica_hierarquia(termos_sugeridos, mapa_hierarquia):
                     
     return list(termos_finais)
 
+# Função para obter a chave de API de forma segura
+def get_api_key():
+    """
+    Tenta obter a chave de API de diferentes fontes:
+    1. Streamlit secrets
+    2. Variáveis de ambiente
+    """
+    # Tenta obter do st.secrets (método preferencial do Streamlit)
+    api_key = st.secrets.get("GOOGLE_API_KEY")
+    if api_key:
+        return api_key
+    
+    # Se não encontrar, tenta obter das variáveis de ambiente
+    api_key = os.environ.get("GOOGLE_API_KEY")
+    return api_key
+
 # Função para gerar resumo usando a API do Google Gemini
 def gerar_resumo(texto_original):
     """
     Gera um resumo a partir do texto original usando a API do Google Gemini.
     As regras para o resumo são fixas no prompt.
     """
+    api_key = get_api_key()
     
-    # Tenta obter a chave de API do st.secrets de forma segura
-    api_key = st.secrets.get("GOOGLE_API_KEY")
-
     if not api_key:
-        st.error("Erro: A chave de API não foi configurada. Por favor, adicione-a no arquivo .streamlit/secrets.toml ou nos segredos do repositório no GitHub.")
+        st.error("Erro: A chave de API não foi configurada. Por favor, adicione-a como um segredo no GitHub ou em variáveis de ambiente.")
         return None
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
@@ -132,11 +146,10 @@ def gerar_termos_llm(texto_original, termos_dicionario):
     Gera termos de indexação a partir do texto original, utilizando um dicionário de termos.
     A resposta é esperada em formato de lista JSON.
     """
-    # Tenta obter a chave de API do st.secrets de forma segura
-    api_key = st.secrets.get("GOOGLE_API_KEY")
+    api_key = get_api_key()
     
     if not api_key:
-        st.error("Erro: A chave de API não foi configurada. Por favor, adicione-a no arquivo .streamlit/secrets.toml ou nos segredos do repositório no GitHub.")
+        st.error("Erro: A chave de API não foi configurada. Por favor, adicione-a como um segredo no GitHub ou em variáveis de ambiente.")
         return None
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
@@ -238,7 +251,10 @@ if st.button("Gerar Resumo e Termos"):
             termos_sugeridos_brutos = gerar_termos_llm(texto_proposicao, termo_dicionario)
             
             # Aplica a lógica de hierarquia para priorizar termos específicos
-            termos_finais = aplicar_logica_hierarquia(termos_sugeridos_brutos, mapa_hierarquia)
+            if termos_sugeridos_brutos is not None:
+                termos_finais = aplicar_logica_hierarquia(termos_sugeridos_brutos, mapa_hierarquia)
+            else:
+                termos_finais = []
 
         # Exibir os resultados
         if resumo_gerado:
