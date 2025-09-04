@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 import json
 import os
-import re
 
 # Função para carregar o dicionário de termos de um arquivo de texto
 def carregar_dicionario_termos(nome_arquivo):
@@ -182,31 +181,6 @@ def gerar_termos_llm(api_key, texto_original, termos_dicionario):
         
     return []
 
-def processar_utilidade_publica(texto):
-    """
-    Verifica se o texto é uma declaração de utilidade pública e retorna termos e resumo
-    formatados de acordo com a regra.
-    """
-    # Verifica se a frase 'Declara de utilidade pública' está no texto
-    if "Declara de utilidade pública" in texto:
-        # A regex foi atualizada para ser mais robusta, capturando o nome do município
-        # seguido por uma vírgula, a palavra 'e', um ponto, uma nova linha ou o fim do texto.
-        match = re.search(r"do Município de (.+?)(?:,| e |\.|\n|$)", texto, re.IGNORECASE)
-        municipio = "Município não encontrado"
-        if match:
-            # Captura o nome do município
-            municipio = match.group(1).strip()
-            # Remove vírgula ou ponto no final do nome, caso a regex não o faça
-            if municipio.endswith(','):
-                municipio = municipio[:-1]
-        
-        resumo = "#"
-        termos = ["Utilidade Pública", municipio]
-        
-        return resumo, termos
-    
-    return None, None
-
 # Configuração da página e UI
 st.set_page_config(page_title="Gerador de Termos e Resumos de Proposições")
 
@@ -248,14 +222,14 @@ if st.button("Gerar Resumo e Termos"):
         st.warning("Por favor, cole o texto da proposição para continuar.")
     else:
         with st.spinner('Gerando resumo e termos...'):
-            # Verifica a regra especial para utilidade pública
-            resumo_gerado, termos_finais = processar_utilidade_publica(texto_proposicao)
-
-            if resumo_gerado is None:
-                # Se não for uma declaração de utilidade pública, segue o fluxo normal
-                resumo_gerado = gerar_resumo(API_KEY, texto_proposicao)
-                termos_sugeridos_brutos = gerar_termos_llm(API_KEY, texto_proposicao, termo_dicionario)
-                termos_finais = aplicar_logica_hierarquia(termos_sugeridos_brutos, mapa_hierarquia)
+            # Gera o resumo
+            resumo_gerado = gerar_resumo(API_KEY, texto_proposicao)
+            
+            # Gera os termos usando o modelo de IA
+            termos_sugeridos_brutos = gerar_termos_llm(API_KEY, texto_proposicao, termo_dicionario)
+            
+            # Aplica a lógica de hierarquia para priorizar termos específicos
+            termos_finais = aplicar_logica_hierarquia(termos_sugeridos_brutos, mapa_hierarquia)
 
         # Exibir os resultados
         if resumo_gerado:
