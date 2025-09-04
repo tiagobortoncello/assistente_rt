@@ -130,7 +130,7 @@ def gerar_termos_llm(api_key, texto_original, termos_dicionario, exemplos_csv):
     # Formata os exemplos para inclusão no prompt
     exemplo_str = ""
     for exemplo in exemplos_csv:
-        ementa = exemplo['Ementa']
+        ementa = exemplo['ementa']
         termos = exemplo['Termos']
         exemplo_str += f"Texto de Exemplo: {ementa}\nTermos de Exemplo: {termos}\n\n"
 
