@@ -176,22 +176,28 @@ def gerar_termos_llm(texto_original, termos_dicionario):
         response.raise_for_status()
         result = response.json()
         
-        # Extrai a string que o modelo retornou
-        json_string = result.get("candidates", [])[0].get("content", {}).get("parts", [])[0].get("text", "[]")
+        # Extrai a string que o modelo retornou, garantindo um valor padrão vazio.
+        json_string = result.get("candidates", [])[0].get("content", {}).get("parts", [])[0].get("text", "")
         
-        # Lógica de validação mais robusta: usa regex para encontrar a lista JSON
-        # e tenta decodificá-la. Isso ignora texto extra antes ou depois.
-        match = re.search(r'\[.*\]', json_string, re.DOTALL)
         termos_sugeridos = []
-        if match:
-            json_list_string = match.group(0)
+        
+        # Encontra todas as possíveis listas JSON na string
+        matches = re.findall(r'(\[.*?\])', json_string, re.DOTALL)
+        
+        for match in matches:
+            # Tenta limpar a string para um formato JSON válido, substituindo aspas simples por duplas.
+            cleaned_string = match.replace("'", '"')
+            
+            # Tenta decodificar o trecho limpo
             try:
-                termos_sugeridos = json.loads(json_list_string)
-                if not isinstance(termos_sugeridos, list):
-                    termos_sugeridos = []
+                parsed_list = json.loads(cleaned_string)
+                
+                # Valida se o resultado é uma lista e se todos os itens são strings
+                if isinstance(parsed_list, list) and all(isinstance(item, str) for item in parsed_list):
+                    termos_sugeridos = parsed_list
+                    break # Encontrou uma lista válida, pode sair do loop
             except json.JSONDecodeError:
-                # Se a decodificação falhar, retorna uma lista vazia
-                termos_sugeridos = []
+                continue # Se a decodificação falhar, continua para o próximo trecho
         
         return termos_sugeridos
         
@@ -225,6 +231,10 @@ tipo_documento_selecionado = st.selectbox(
 # Carregar o dicionário de termos com base na seleção
 arquivo_dicionario = TIPOS_DOCUMENTO[tipo_documento_selecionado]
 termo_dicionario, mapa_hierarquia = carregar_dicionario_termos(arquivo_dicionario)
+
+# Remove o termo "Minas Gerais (MG)" do dicionário para evitar sua sugestão
+if "Minas Gerais (MG)" in termo_dicionario:
+    termo_dicionario.remove("Minas Gerais (MG)")
 
 # Área de texto para entrada da proposição
 texto_proposicao = st.text_area(
