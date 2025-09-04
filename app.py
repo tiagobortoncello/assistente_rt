@@ -79,18 +79,21 @@ def gerar_resumo(api_key, texto_original):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
     
     regras_adicionais = """
-    - Mantenha o resumo conciso.
+    - Mantenha o resumo conciso e com no máximo 50 palavras.
     - Use linguagem formal e evite gírias.
     - Mantenha um tom objetivo e neutro.
-    - Use verbos na terceira pessoa do singular.
     - Separe as siglas com o caractere "–". Por exemplo: 'MP – Medida Provisória'.
+    - Use verbos na terceira pessoa do singular.
     - Inicie o resumo diretamente com um verbo na terceira pessoa do singular, sem sujeito explícito.
     - Não inclua a parte sobre a vigência da lei (ex: "a lei entra em vigor na data de sua publicação").
+    - Priorize as informações mais importantes da proposição: o que a proposição faz, o público-alvo e como o mecanismo de alerta funciona.
+    - Evite mencionar detalhes secundários, como tecnologias específicas (ex: "Cell Broadcast"), outros órgãos ou parcerias.
     """
 
     prompt_resumo = f"""
-    Resuma a seguinte proposição legislativa de forma clara e concisa. 
-    Siga as seguintes regras:
+    Resuma a seguinte proposição legislativa de forma clara, concisa e com as regras abaixo.
+    
+    Regras para o Resumo:
     {regras_adicionais}
     
     Texto da Proposição: {texto_original}
