@@ -226,6 +226,10 @@ tipo_documento_selecionado = st.selectbox(
 arquivo_dicionario = TIPOS_DOCUMENTO[tipo_documento_selecionado]
 termo_dicionario, mapa_hierarquia = carregar_dicionario_termos(arquivo_dicionario)
 
+# Remove o termo "Minas Gerais (MG)" do dicionário para evitar sua sugestão
+if "Minas Gerais (MG)" in termo_dicionario:
+    termo_dicionario.remove("Minas Gerais (MG)")
+
 # Área de texto para entrada da proposição
 texto_proposicao = st.text_area(
     "Cole o texto da proposição aqui:", 
