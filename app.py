@@ -114,6 +114,7 @@ def gerar_resumo(texto_original):
         - Detalhes sobre a Lei Geral de Proteção de Dados – LGPD.
         - Detalhes específicos sobre a Defesa Civil, ANATEL – Agência Nacional de Telecomunicações – ou outros órgãos.
         - Nomes específicos de programas (ex: "Alerta TEA-MG").
+        - 'Minas Gerais' ou 'Estado de Minas Gerais'.
     """
 
     prompt_resumo = f"""
