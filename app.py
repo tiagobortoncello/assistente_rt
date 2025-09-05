@@ -145,7 +145,7 @@ def gerar_resumo(texto_original):
     return "Não foi possível gerar o resumo. Verifique a chave de API e tente novamente."
 
 # Função para gerar termos de indexação usando a API do Google Gemini
-def gerar_termos_llm(texto_original, termos_dicionario):
+def gerar_termos_llm(texto_original, termos_dicionario, num_termos):
     """
     Gera termos de indexação a partir do texto original, utilizando um dicionário de termos.
     A resposta é esperada em formato de lista JSON.
@@ -160,7 +160,7 @@ def gerar_termos_llm(texto_original, termos_dicionario):
 
     # Ajusta o prompt para solicitar uma lista JSON explicitamente, sem usar o responseSchema.
     prompt_termos = f"""
-    A partir do texto abaixo, selecione até 10 (dez) termos de indexação relevantes.
+    A partir do texto abaixo, selecione até {num_termos} termos de indexação relevantes.
     Os termos de indexação devem ser selecionados EXCLUSIVAMENTE da seguinte lista:
     {", ".join(termos_dicionario)}
     Se nenhum termo da lista for aplicável, a resposta deve ser uma lista JSON vazia: [].
@@ -231,6 +231,19 @@ tipo_documento_selecionado = st.selectbox(
     options=["Proposição", "Requerimento"],
 )
 
+# Adiciona a caixa de seleção para o número de termos
+num_termos_selecionado = st.selectbox(
+    "Selecione a quantidade de termos de indexação:",
+    options=["Até 3", "de 3 a 5", "5+"],
+)
+
+# Mapeia a seleção do usuário para um valor numérico para o prompt da IA
+num_termos = 10 # Padrão para "5+"
+if num_termos_selecionado == "Até 3":
+    num_termos = 3
+elif num_termos_selecionado == "de 3 a 5":
+    num_termos = 5
+
 # Carregar o dicionário de termos com base na seleção
 arquivo_dicionario = TIPOS_DOCUMENTO["Documentos Gerais"] # Mantém o dicionário de termos fixo
 termo_dicionario, mapa_hierarquia = carregar_dicionario_termos(arquivo_dicionario)
@@ -260,7 +273,7 @@ if st.button("Gerar Resumo e Termos"):
                 resumo_gerado = "Não precisa de resumo."
                 
             # Gera os termos usando o modelo de IA
-            termos_sugeridos_brutos = gerar_termos_llm(texto_proposicao, termo_dicionario)
+            termos_sugeridos_brutos = gerar_termos_llm(texto_proposicao, termo_dicionario, num_termos)
             
             # Regra para adicionar "Política Pública" automaticamente
             if re.search(r"institui (?:a|o) (?:política|programa) estadual|cria (?:a|o) (?:política|programa) estadual", texto_proposicao, re.IGNORECASE):
