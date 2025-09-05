@@ -265,42 +265,41 @@ if st.button("Gerar Resumo e Termos"):
     else:
         with st.spinner('Gerando resumo e termos...'):
             resumo_gerado = ""
-            if tipo_documento_selecionado == "Proposição":
-                # Gera o resumo para "Proposição"
-                resumo_gerado = gerar_resumo(texto_proposicao)
-            elif tipo_documento_selecionado == "Requerimento":
-                # Define o resumo para "Requerimento"
-                resumo_gerado = "Não precisa de resumo."
-            
             termos_finais = []
             
             # Regra específica para "utilidade pública" para fins de "servidão"
             match_servidao = re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
             
+            # Regra genérica para "utilidade pública"
+            match_utilidade_publica = re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
+            
             if match_servidao:
                 municipio = match_servidao.group(1).strip()
                 termos_finais = ["Servidão Administrativa", municipio]
+                resumo_gerado = "Não precisa de resumo."
+            elif match_utilidade_publica:
+                municipio = match_utilidade_publica.group(1).strip()
+                termos_finais = ["Utilidade Pública", municipio]
+                resumo_gerado = "Não precisa de resumo."
             else:
-                # Regra genérica para "utilidade pública"
-                match_utilidade_publica = re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
-                
-                if match_utilidade_publica:
-                    municipio = match_utilidade_publica.group(1).strip()
-                    termos_finais = ["Utilidade Pública", municipio]
-                else:
-                    # Lógica normal de geração de termos para outras proposições
-                    termos_sugeridos_brutos = gerar_termos_llm(texto_proposicao, termo_dicionario, num_termos)
-                    
-                    # Regra para adicionar "Política Pública" automaticamente
-                    if re.search(r"institui (?:a|o) (?:política|programa) estadual|cria (?:a|o) (?:política|programa) estadual", texto_proposicao, re.IGNORECASE):
-                        if termos_sugeridos_brutos is not None and "Política Pública" not in termos_sugeridos_brutos:
-                            termos_sugeridos_brutos.append("Política Pública")
+                # Lógica normal para as demais proposições
+                if tipo_documento_selecionado == "Proposição":
+                    resumo_gerado = gerar_resumo(texto_proposicao)
+                elif tipo_documento_selecionado == "Requerimento":
+                    resumo_gerado = "Não precisa de resumo."
 
-                    # Aplica a lógica de hierarquia para priorizar termos específicos
-                    if termos_sugeridos_brutos is not None:
-                        termos_finais = aplicar_logica_hierarquia(termos_sugeridos_brutos, mapa_hierarquia)
-                    else:
-                        termos_finais = []
+                termos_sugeridos_brutos = gerar_termos_llm(texto_proposicao, termo_dicionario, num_termos)
+                
+                # Regra para adicionar "Política Pública" automaticamente
+                if re.search(r"institui (?:a|o) (?:política|programa) estadual|cria (?:a|o) (?:política|programa) estadual", texto_proposicao, re.IGNORECASE):
+                    if termos_sugeridos_brutos is not None and "Política Pública" not in termos_sugeridos_brutos:
+                        termos_sugeridos_brutos.append("Política Pública")
+
+                # Aplica a lógica de hierarquia para priorizar termos específicos
+                if termos_sugeridos_brutos is not None:
+                    termos_finais = aplicar_logica_hierarquia(termos_sugeridos_brutos, mapa_hierarquia)
+                else:
+                    termos_finais = []
 
         # Exibir os resultados
         st.subheader("Resumo")
