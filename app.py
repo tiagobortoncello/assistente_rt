@@ -222,14 +222,14 @@ TIPOS_DOCUMENTO = {
     "Documentos Gerais": "dicionario_termos.txt"
 }
 
-# Caixa de seleção para tipo de documento
+# Modifica a caixa de seleção para incluir as opções "Proposição" e "Requerimento"
 tipo_documento_selecionado = st.selectbox(
     "Selecione o tipo de documento:",
-    options=list(TIPOS_DOCUMENTO.keys()),
+    options=["Proposição", "Requerimento"],
 )
 
 # Carregar o dicionário de termos com base na seleção
-arquivo_dicionario = TIPOS_DOCUMENTO[tipo_documento_selecionado]
+arquivo_dicionario = TIPOS_DOCUMENTO["Documentos Gerais"] # Mantém o dicionário de termos fixo
 termo_dicionario, mapa_hierarquia = carregar_dicionario_termos(arquivo_dicionario)
 
 # Remove o termo "Minas Gerais (MG)" do dicionário para evitar sua sugestão
@@ -248,9 +248,14 @@ if st.button("Gerar Resumo e Termos"):
         st.warning("Por favor, cole o texto da proposição para continuar.")
     else:
         with st.spinner('Gerando resumo e termos...'):
-            # Gera o resumo
-            resumo_gerado = gerar_resumo(texto_proposicao)
-            
+            resumo_gerado = ""
+            if tipo_documento_selecionado == "Proposição":
+                # Gera o resumo para "Proposição"
+                resumo_gerado = gerar_resumo(texto_proposicao)
+            elif tipo_documento_selecionado == "Requerimento":
+                # Define o resumo para "Requerimento"
+                resumo_gerado = "Não precisa de resumo."
+                
             # Gera os termos usando o modelo de IA
             termos_sugeridos_brutos = gerar_termos_llm(texto_proposicao, termo_dicionario)
             
@@ -261,9 +266,8 @@ if st.button("Gerar Resumo e Termos"):
                 termos_finais = []
 
         # Exibir os resultados
-        if resumo_gerado:
-            st.subheader("Resumo")
-            st.write(resumo_gerado)
+        st.subheader("Resumo")
+        st.write(resumo_gerado)
         
         st.subheader("Termos de Indexação")
         if termos_finais:
