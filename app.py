@@ -105,6 +105,7 @@ def gerar_resumo(texto_original):
     - Evite o uso de verbos com partícula apassivadora ou de indeterminação do sujeito (Exemplo: "Aciona-se", "Cria-se").
     - Separe as siglas com o caractere "–". Por exemplo: 'MP – Medida Provisória'.
     - Inicie o resumo diretamente com um verbo na terceira pessoa do singular, sem sujeito explícito.
+    - Evite iniciar frases subsequentes com 'Esta política', 'A lei' ou termos semelhantes. Prefira conectar as ideias de forma fluida ou iniciar a frase com um verbo, seguindo a regra inicial.
     - Não inclua a parte sobre a vigência da lei (ex: "a lei entra em vigor na data de sua publicação").
     - O resumo deve focar em três pontos principais:
         1. O que o programa institui e a quem se destina.
