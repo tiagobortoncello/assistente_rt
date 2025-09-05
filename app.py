@@ -101,6 +101,7 @@ def gerar_resumo(texto_original):
     - Use linguagem formal e evite gírias.
     - Mantenha um tom objetivo e neutro.
     - Use verbos na terceira pessoa do singular, na voz ativa.
+    - Para descrever ações ou responsabilidades de autoridades, prefira o uso de verbos auxiliares como 'deve' ou 'pode' para indicar obrigação ou possibilidade, em vez de verbos no tempo presente do indicativo.
     - Evite o uso de verbos com partícula apassivadora ou de indeterminação do sujeito (Exemplo: "Aciona-se", "Cria-se").
     - Separe as siglas com o caractere "–". Por exemplo: 'MP – Medida Provisória'.
     - Inicie o resumo diretamente com um verbo na terceira pessoa do singular, sem sujeito explícito.
