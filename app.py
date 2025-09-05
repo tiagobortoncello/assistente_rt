@@ -262,6 +262,11 @@ if st.button("Gerar Resumo e Termos"):
             # Gera os termos usando o modelo de IA
             termos_sugeridos_brutos = gerar_termos_llm(texto_proposicao, termo_dicionario)
             
+            # Regra para adicionar "Política Pública" automaticamente
+            if re.search(r"institui (?:a|o) (?:política|programa) estadual|cria (?:a|o) (?:política|programa) estadual", texto_proposicao, re.IGNORECASE):
+                if "Política Pública" not in termos_sugeridos_brutos:
+                    termos_sugeridos_brutos.append("Política Pública")
+
             # Aplica a lógica de hierarquia para priorizar termos específicos
             if termos_sugeridos_brutos is not None:
                 termos_finais = aplicar_logica_hierarquia(termos_sugeridos_brutos, mapa_hierarquia)
