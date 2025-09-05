@@ -56,13 +56,20 @@ def aplicar_logica_hierarquia(termos_sugeridos, mapa_hierarquia):
     o termo genérico é removido.
     """
     termos_finais = set(termos_sugeridos)
+    mapa_inverso_hierarquia = {}
     
-    for termo_gen in mapa_hierarquia:
-        if termo_gen in termos_finais:
-            for termo_especifico in mapa_hierarquia[termo_gen]:
-                if termo_especifico in termos_finais:
-                    termos_finais.discard(termo_gen)
-                    break
+    for pai, filhos in mapa_hierarquia.items():
+        for filho in filhos:
+            mapa_inverso_hierarquia[filho] = pai
+    
+    termos_a_remover = set()
+    for termo in termos_sugeridos:
+        if termo in mapa_inverso_hierarquia:
+            termo_pai = mapa_inverso_hierarquia[termo]
+            if termo_pai in termos_finais:
+                termos_a_remover.add(termo_pai)
+                
+    termos_finais = termos_finais - termos_a_remover
                     
     return list(termos_finais)
 
