@@ -274,13 +274,20 @@ if st.button("Gerar Resumo e Termos"):
             resumo_gerado = ""
             termos_finais = []
             
+            # Padrão mais genérico para Doação de Imóvel, incluindo "os imóveis"
+            match_doacao = re.search(r"Autoriza (.+?) a doar ao Município de ([\w\s-]+) (?:o|os)\simóveis?", texto_proposicao, re.IGNORECASE)
+            
             # Regra específica para "utilidade pública" para fins de "servidão"
             match_servidao = re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
             
             # Regra genérica para "utilidade pública"
             match_utilidade_publica = re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
             
-            if match_servidao:
+            if match_doacao:
+                municipio = match_doacao.group(2).strip() # O grupo 2 captura o município
+                termos_finais = ["Doação de Imóvel", municipio]
+                resumo_gerado = "Não precisa de resumo."
+            elif match_servidao:
                 municipio = match_servidao.group(1).strip()
                 termos_finais = ["Servidão Administrativa", municipio]
                 resumo_gerado = "Não precisa de resumo."
