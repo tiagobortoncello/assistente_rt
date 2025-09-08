@@ -274,9 +274,9 @@ if st.button("Gerar Resumo e Termos"):
             resumo_gerado = ""
             termos_finais = []
             
-            # Novo padrão mais robusto para Doação de Imóvel, buscando por palavras-chave em qualquer ordem
-            match_doacao = re.search(r"(?:doar|doação).*?(?:imóvel|imóveis).*?Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
-            
+            # Nova regex mais robusta para doação, capturando o município e parando antes de "o imóvel" ou um número
+            match_doacao = re.search(r"Município de ([\w\s-]+?)(?:\s+o\simóvel|\s+os\simóveis|\s*\d)", texto_proposicao, re.IGNORECASE)
+
             # Regra específica para "utilidade pública" para fins de "servidão"
             match_servidao = re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
             
