@@ -274,11 +274,8 @@ if st.button("Gerar Resumo e Termos"):
             resumo_gerado = ""
             termos_finais = []
             
-            # Padrão 1 para Doação de Imóvel: "doar ao Município de [Cidade] o imóvel"
-            match_doacao_1 = re.search(r"Autoriza (?:.+?) a doar ao Município de ([\w\s-]+) (?:o|os)\simóveis?", texto_proposicao, re.IGNORECASE)
-            
-            # Padrão 2 para Doação de Imóvel: "doar o imóvel ao Município de [Cidade]"
-            match_doacao_2 = re.search(r"Autoriza (?:.+?) a doar (?:o|os)\simóveis? ao Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE)
+            # Novo padrão mais robusto para Doação de Imóvel, buscando por palavras-chave em qualquer ordem
+            match_doacao = re.search(r"(?:doar|doação).*?(?:imóvel|imóveis).*?Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
             
             # Regra específica para "utilidade pública" para fins de "servidão"
             match_servidao = re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
@@ -286,9 +283,8 @@ if st.button("Gerar Resumo e Termos"):
             # Regra genérica para "utilidade pública"
             match_utilidade_publica = re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
             
-            if match_doacao_1 or match_doacao_2:
-                # Prioriza a captura do município do padrão 1, se existir, senão usa o 2
-                municipio = (match_doacao_1.group(1).strip() if match_doacao_1 else match_doacao_2.group(1).strip())
+            if match_doacao:
+                municipio = match_doacao.group(1).strip()
                 termos_finais = ["Doação de Imóvel", municipio]
                 resumo_gerado = "Não precisa de resumo."
             elif match_servidao:
