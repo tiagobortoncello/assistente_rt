@@ -317,7 +317,8 @@ if st.button("Gerar Resumo e Termos"):
 
         # Exibir os resultados
         st.subheader("Resumo")
-        st.write(resumo_gerado)
+        # Exibe o resumo com formatação justificada
+        st.markdown(f"<p style='text-align: justify;'>{resumo_gerado}</p>", unsafe_allow_html=True)
         
         st.subheader("Termos de Indexação")
         if termos_finais:
