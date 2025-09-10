@@ -172,7 +172,7 @@ def gerar_termos_llm(texto_original, termos_dicionario, num_termos):
     prompt_termos = f"""
     A partir do texto abaixo, selecione até {num_termos} termos de indexação relevantes.
     Os termos de indexação devem ser selecionados EXCLUSIVAMENTE da seguinte lista:
-    {", ".join(termos_dicionario)}
+    {", ".join(termo_dicionario)}
     Se nenhum termo da lista for aplicável, a resposta deve ser uma lista JSON vazia: [].
     A resposta DEVE ser uma lista JSON de strings, sem texto adicional antes ou depois.
     
@@ -274,9 +274,9 @@ if st.button("Gerar Resumo e Termos"):
         st.warning("Por favor, cole o texto da proposição para continuar.")
     else:
         with st.spinner('Gerando resumo e termos...'):
-            resumo_gerado = None  # Inicia com None para saber se foi processado
-            termos_finais = None # Inicia com None para saber se foi processado
-
+            resumo_gerado = ""
+            termos_finais = []
+            
             # Tenta encontrar um caso especial e define resumo e termos
             # A ordem é importante, pois as regras mais específicas vêm primeiro
             
