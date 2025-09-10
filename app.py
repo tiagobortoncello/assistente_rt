@@ -277,36 +277,46 @@ if st.button("Gerar Resumo e Termos"):
             resumo_gerado = ""
             termos_finais = []
             
-            # Nova regex mais robusta para doação, capturando o município e parando antes de "o imóvel" ou um número
-            match_doacao = re.search(r"Município de ([\w\s-]+?)(?:\s+o\simóvel|\s+os\simóveis|\s*\d)", texto_proposicao, re.IGNORECASE)
+            # Flags para controle do fluxo
+            caso_especial_encontrado = False
 
-            # Regra específica para "utilidade pública" para fins de "servidão"
-            match_servidao = re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
-            
             # Regra para desafetação
             match_desafetacao = re.search(r"desafetação.*Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
-
-            # Regra genérica para "utilidade pública"
-            match_utilidade_publica = re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
-            
-            if match_doacao:
-                municipio = match_doacao.group(1).strip()
-                termos_finais = ["Doação de Imóvel", municipio]
-                resumo_gerado = "Não precisa de resumo."
-            elif match_servidao:
-                municipio = match_servidao.group(1).strip()
-                termos_finais = ["Servidão Administrativa", municipio]
-                resumo_gerado = "Não precisa de resumo."
-            elif match_desafetacao:
+            if match_desafetacao:
                 municipio = match_desafetacao.group(1).strip()
                 termos_finais = ["Desafetação", "Rodovia", municipio]
                 resumo_gerado = "Não precisa de resumo."
-            elif match_utilidade_publica:
-                municipio = match_utilidade_publica.group(1).strip()
-                termos_finais = ["Utilidade Pública", municipio]
-                resumo_gerado = "Não precisa de resumo."
-            else:
-                # Lógica normal para as demais proposições
+                caso_especial_encontrado = True
+
+            # Regra específica para "utilidade pública" para fins de "servidão"
+            if not caso_especial_encontrado:
+                match_servidao = re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
+                if match_servidao:
+                    municipio = match_servidao.group(1).strip()
+                    termos_finais = ["Servidão Administrativa", municipio]
+                    resumo_gerado = "Não precisa de resumo."
+                    caso_especial_encontrado = True
+
+            # Nova regex mais robusta para doação, capturando o município e parando antes de "o imóvel" ou um número
+            if not caso_especial_encontrado:
+                match_doacao = re.search(r"Município de ([\w\s-]+?)(?:\s+o\simóvel|\s+os\simóveis|\s*\d)", texto_proposicao, re.IGNORECASE)
+                if match_doacao:
+                    municipio = match_doacao.group(1).strip()
+                    termos_finais = ["Doação de Imóvel", municipio]
+                    resumo_gerado = "Não precisa de resumo."
+                    caso_especial_encontrado = True
+
+            # Regra genérica para "utilidade pública"
+            if not caso_especial_encontrado:
+                match_utilidade_publica = re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
+                if match_utilidade_publica:
+                    municipio = match_utilidade_publica.group(1).strip()
+                    termos_finais = ["Utilidade Pública", municipio]
+                    resumo_gerado = "Não precisa de resumo."
+                    caso_especial_encontrado = True
+            
+            # Lógica normal para as demais proposições, se nenhum caso especial foi encontrado
+            if not caso_especial_encontrado:
                 if tipo_documento_selecionado == "Proposição":
                     resumo_gerado = gerar_resumo(texto_proposicao)
                 elif tipo_documento_selecionado == "Requerimento":
