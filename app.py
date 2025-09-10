@@ -125,6 +125,7 @@ def gerar_resumo(texto_original):
         - Nomes específicos de programas (ex: "Alerta TEA-MG").
         - 'Minas Gerais' ou 'Estado de Minas Gerais'.
     - Todas as palavras de origem estrangeira devem ser escritas entre aspas. Exemplo: "online", "cyberbullying".
+    - Represente os numerais de 0 a 9 por extenso (ex: 'cinco'). Para numerais de 10 ou mais, use apenas o algarismo (ex: '15', '20'). Evite a forma mista de numerais e texto, como '18 (dezoito)'.
     """
 
     prompt_resumo = f"""
