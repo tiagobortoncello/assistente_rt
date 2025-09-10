@@ -123,6 +123,7 @@ def gerar_resumo(texto_original):
         - Detalhes específicos sobre a Defesa Civil, ANATEL – Agência Nacional de Telecomunicações – ou outros órgãos.
         - Nomes específicos de programas (ex: "Alerta TEA-MG").
         - 'Minas Gerais' ou 'Estado de Minas Gerais'.
+    - Todas as palavras de origem estrangeira devem ser escritas entre aspas. Exemplo: "online", "cyberbullying".
     """
 
     prompt_resumo = f"""
