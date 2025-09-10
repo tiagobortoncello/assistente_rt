@@ -283,6 +283,9 @@ if st.button("Gerar Resumo e Termos"):
             # Regra específica para "utilidade pública" para fins de "servidão"
             match_servidao = re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
             
+            # Regra para desafetação
+            match_desafetacao = re.search(r"desafetação.*Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
+
             # Regra genérica para "utilidade pública"
             match_utilidade_publica = re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
             
@@ -293,6 +296,10 @@ if st.button("Gerar Resumo e Termos"):
             elif match_servidao:
                 municipio = match_servidao.group(1).strip()
                 termos_finais = ["Servidão Administrativa", municipio]
+                resumo_gerado = "Não precisa de resumo."
+            elif match_desafetacao:
+                municipio = match_desafetacao.group(1).strip()
+                termos_finais = ["Desafetação", "Rodovia", municipio]
                 resumo_gerado = "Não precisa de resumo."
             elif match_utilidade_publica:
                 municipio = match_utilidade_publica.group(1).strip()
