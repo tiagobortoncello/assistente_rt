@@ -280,28 +280,36 @@ if st.button("Gerar Resumo e Termos"):
             # Tenta encontrar um caso especial e define resumo e termos
             # A ordem é importante, pois as regras mais específicas vêm primeiro
             
-            # 1. Caso de Desafetação
-            match_desafetacao = re.search(r"desafetação.*Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
-            if match_desafetacao:
+            # 1. Caso de Servidão (utilidade pública específica)
+            match_servidao = re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
+            
+            # 2. Caso de Desafetação - AGORA COM O PADRÃO SOLICITADO
+            match_desafetacao = re.search(r"dispõe sobre a desafetação.*Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
+                
+            # 3. Caso de Doação de Imóvel
+            match_doacao = re.search(r"Município de ([\w\s-]+?)(?:\s+o\simóvel|\s+os\simóveis|\s*\d)", texto_proposicao, re.IGNORECASE)
+
+            # 4. Caso de Utilidade Pública genérica
+            match_utilidade_publica = re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL)
+
+            # Lógica de decisão principal para evitar chamadas extras à IA
+            if match_servidao:
+                municipio = match_servidao.group(1).strip()
+                termos_finais = ["Servidão Administrativa", municipio]
+                resumo_gerado = "Não precisa de resumo."
+            
+            elif match_desafetacao:
                 municipio = match_desafetacao.group(1).strip()
                 termos_finais = ["Desafetação", "Rodovia", municipio]
                 resumo_gerado = "Não precisa de resumo."
-            
-            # 2. Caso de Servidão (utilidade pública específica)
-            elif re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL):
-                municipio = re.search(r"declara de utilidade pública,.*servidão.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL).group(1).strip()
-                termos_finais = ["Servidão Administrativa", municipio]
-                resumo_gerado = "Não precisa de resumo."
                 
-            # 3. Caso de Doação de Imóvel
-            elif re.search(r"Município de ([\w\s-]+?)(?:\s+o\simóvel|\s+os\simóveis|\s*\d)", texto_proposicao, re.IGNORECASE):
-                municipio = re.search(r"Município de ([\w\s-]+?)(?:\s+o\simóvel|\s+os\simóveis|\s*\d)", texto_proposicao, re.IGNORECASE).group(1).strip()
+            elif match_doacao:
+                municipio = match_doacao.group(1).strip()
                 termos_finais = ["Doação de Imóvel", municipio]
                 resumo_gerado = "Não precisa de resumo."
-
-            # 4. Caso de Utilidade Pública genérica
-            elif re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL):
-                municipio = re.search(r"declara de utilidade pública.*no Município de ([\w\s-]+)", texto_proposicao, re.IGNORECASE | re.DOTALL).group(1).strip()
+                
+            elif match_utilidade_publica:
+                municipio = match_utilidade_publica.group(1).strip()
                 termos_finais = ["Utilidade Pública", municipio]
                 resumo_gerado = "Não precisa de resumo."
 
